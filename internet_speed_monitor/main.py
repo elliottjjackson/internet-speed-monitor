@@ -81,19 +81,22 @@ class SpeedTest:
         return self._upload_speed
 
     @speedtest_connection_log
-    def update_best_server(self) -> None:
+    def update_best_server(self) -> dict[str, Any]:
         """Queries for the best server nearby and returns statistics"""
         self._server_stats = self.speed_test.get_best_server()
+        return self._server_stats
 
     @speedtest_connection_log
-    def update_download_speed(self) -> None:
+    def update_download_speed(self) -> float:
         """Downloads a package and returns the download speed."""
         self._download_speed = self.speed_test.download()
+        return self._download_speed
 
     @speedtest_connection_log
-    def update_upload_speed(self) -> None:
+    def update_upload_speed(self) -> float:
         """Uploads a package and returns the download speed."""
         self._upload_speed = self.speed_test.upload()
+        return self._upload_speed
 
 
 if __name__ == "__main__":
