@@ -46,3 +46,54 @@
 [17:28:15] {main.py:52} INFO - Data retrieved with retrieve_upload_speed
 [17:28:15] {main.py:44} DEBUG - 11673451.148331312
 <<< SCRIPT COMPLETE main.py >>>
+
+
+<<< RUNNING main.py >>>
+[20:47:40] {main.py:52} INFO - Retrieving data with retrieve_best_server
+[20:47:40] {main.py:55} INFO - Data retrieved with retrieve_best_server
+[20:47:40] {main.py:39} DEBUG - url: http://speedtest.wa.ix.asn.au:8080/speedtest/upload.php
+[20:47:40] {main.py:39} DEBUG - lat: -31.9554
+[20:47:40] {main.py:39} DEBUG - lon: 115.8585
+[20:47:40] {main.py:39} DEBUG - name: Perth
+[20:47:40] {main.py:39} DEBUG - country: Australia
+[20:47:40] {main.py:39} DEBUG - cc: AU
+[20:47:40] {main.py:39} DEBUG - sponsor: IX Australia
+[20:47:40] {main.py:39} DEBUG - id: 1931
+[20:47:40] {main.py:39} DEBUG - host: speedtest.wa.ix.asn.au:8080
+[20:47:40] {main.py:39} DEBUG - d: 1.069870420577675
+[20:47:40] {main.py:39} DEBUG - latency: 5.928
+[20:47:40] {main.py:44} DEBUG - {'url': 'http://speedtest.wa.ix.asn.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'IX Australia', 'id': '1931', 'host': 'speedtest.wa.ix.asn.au:8080', 'd': 1.069870420577675, 'latency': 5.928}
+[20:47:40] {main.py:52} INFO - Retrieving data with retrieve_download_speed
+[20:47:50] {main.py:55} INFO - Data retrieved with retrieve_download_speed
+[20:47:50] {main.py:44} DEBUG - 54088157.28172815
+[20:47:50] {main.py:52} INFO - Retrieving data with retrieve_upload_speed
+[20:48:00] {main.py:55} INFO - Data retrieved with retrieve_upload_speed
+[20:48:00] {main.py:44} DEBUG - 12098538.68666162
+<<< SCRIPT COMPLETE main.py >>>
+
+
+<<< RUNNING main.py >>>
+[20:49:19] {main.py:52} INFO - Retrieving data with retrieve_best_server
+[20:49:19] {main.py:55} INFO - Data retrieved with retrieve_best_server
+[20:49:19] {main.py:39} DEBUG - url: http://speedtest.wa.ix.asn.au:8080/speedtest/upload.php
+[20:49:19] {main.py:39} DEBUG - lat: -31.9554
+[20:49:19] {main.py:39} DEBUG - lon: 115.8585
+[20:49:19] {main.py:39} DEBUG - name: Perth
+[20:49:19] {main.py:39} DEBUG - country: Australia
+[20:49:19] {main.py:39} DEBUG - cc: AU
+[20:49:19] {main.py:39} DEBUG - sponsor: IX Australia
+[20:49:19] {main.py:39} DEBUG - id: 1931
+[20:49:19] {main.py:39} DEBUG - host: speedtest.wa.ix.asn.au:8080
+[20:49:19] {main.py:39} DEBUG - d: 1.069870420577675
+[20:49:19] {main.py:39} DEBUG - latency: 4.719
+[20:49:19] {main.py:44} DEBUG - {'url': 'http://speedtest.wa.ix.asn.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'IX Australia', 'id': '1931', 'host': 'speedtest.wa.ix.asn.au:8080', 'd': 1.069870420577675, 'latency': 4.719}
+[20:49:19] {main.py:52} INFO - Retrieving data with retrieve_download_speed
+[20:49:29] {main.py:55} INFO - Data retrieved with retrieve_download_speed
+[20:49:29] {main.py:44} DEBUG - 54060585.749899164
+[20:49:29] {main.py:52} INFO - Retrieving data with retrieve_upload_speed
+[20:49:39] {main.py:55} INFO - Data retrieved with retrieve_upload_speed
+[20:49:39] {main.py:44} DEBUG - 11337805.39411165
+[20:49:44] {main.py:52} INFO - Retrieving data with retrieve_download_speed
+[20:49:54] {main.py:55} INFO - Data retrieved with retrieve_download_speed
+[20:49:54] {main.py:44} DEBUG - 54131218.75678713
+<<< SCRIPT COMPLETE main.py >>>

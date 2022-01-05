@@ -43,7 +43,7 @@ def plog(logging_level: int, object_to_log: Any) -> None:
         log.log(logging_level, f"{object_to_log}")
 
 
-def test_retrieval_log(func: Callable[..., Any]) -> Callable[..., Any]:
+def speedtest_connection_log(func: Callable[..., Any]) -> Callable[..., Any]:
     """Decorator for logging of test data queries, retrieval or error occurrance"""
 
     def wrapper(*args: Any) -> Any:
@@ -64,9 +64,9 @@ def test_retrieval_log(func: Callable[..., Any]) -> Callable[..., Any]:
 class SpeedTest:
     def __init__(self) -> None:
         self.speed_test = st.Speedtest()
-        self._server_stats = self.retrieve_best_server()
-        self._download_speed = self.retrieve_download_speed()
-        self._upload_speed = self.retrieve_upload_speed()
+        self._server_stats = self.update_best_server()
+        self._download_speed = self.update_download_speed()
+        self._upload_speed = self.update_upload_speed()
 
     @property
     def server_stats(self) -> dict[str, Any]:
@@ -80,23 +80,20 @@ class SpeedTest:
     def upload_speed(self) -> dict[str, Any]:
         return self._upload_speed
 
-    @test_retrieval_log
-    def retrieve_best_server(self) -> dict[str, Any]:
+    @speedtest_connection_log
+    def update_best_server(self) -> None:
         """Queries for the best server nearby and returns statistics"""
-        self._server_stat_dict = self.speed_test.get_best_server()
-        return self._server_stat_dict
+        self._server_stats = self.speed_test.get_best_server()
 
-    @test_retrieval_log
-    def retrieve_download_speed(self) -> float:
+    @speedtest_connection_log
+    def update_download_speed(self) -> None:
         """Downloads a package and returns the download speed."""
-        self._download_speed_value = self.speed_test.download()
-        return self._download_speed_value
+        self._download_speed = self.speed_test.download()
 
-    @test_retrieval_log
-    def retrieve_upload_speed(self) -> float:
+    @speedtest_connection_log
+    def update_upload_speed(self) -> None:
         """Uploads a package and returns the download speed."""
-        self._upload_speed_value = self.speed_test.upload()
-        return self._upload_speed_value
+        self._upload_speed = self.speed_test.upload()
 
 
 if __name__ == "__main__":
@@ -104,6 +101,6 @@ if __name__ == "__main__":
     add_log_header()
     speed_test = SpeedTest()
     server_stats = speed_test.server_stats
-    downloads = speed_test.download_speed
-    uploads = speed_test.upload_speed
+    download = speed_test.download_speed
+    upload = speed_test.upload_speed
     add_log_footer()
