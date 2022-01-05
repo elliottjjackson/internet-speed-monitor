@@ -1,7 +1,6 @@
 import logging
 from pathlib import Path
-from pprint import pprint
-from typing import Any
+from typing import Any, Callable
 
 import speedtest as st
 
@@ -44,41 +43,30 @@ def plog(logging_level: int, object_to_log: Any) -> None:
         log.log(logging_level, f"{object_to_log}")
 
 
+def test_retrieval_log(func: Callable[..., Any]) -> Callable[..., Any]:
+    """Decorator for logging of test data queries, retrieval or error occurrance"""
+
+    def wrapper(*args: Any) -> Any:
+        """Wrapper for test retrieval log."""
+        log.info(f"Retrieving data with {func.__name__}")
+        try:
+            result = func(*args)
+            log.info(f"Data retrieved with {func.__name__}")
+            plog(10, result)
+        except Exception as error:
+            log.error(f"Error occurred while running {func.__name__}\nError - {error}")
+            raise error
+        return result
+
+    return wrapper
+
+
 class SpeedTest:
-    def __init__(
-        self,
-    ) -> None:
-        speed_test = st.Speedtest()
-
-        log.info("Searching for best server...")
-        try:
-            server_stat_dict = speed_test.get_best_server()
-            log.info("Best server found!")
-            plog(10, server_stat_dict)
-        except Exception as error:
-            log.error(f"Something went wrong when finding a server.\nError - {error}")
-            raise error
-        self._server_stats = server_stat_dict
-
-        log.info("Retrieving download speed...")
-        try:
-            download_value = speed_test.download()
-            log.info("Download speed received!")
-            plog(10, download_value)
-        except Exception as error:
-            log.error(f"Unable to determine download speed.\nError - {error}")
-            raise error
-        self._downloads = download_value
-
-        log.info("Retrieving upload speed...")
-        try:
-            upload_value = speed_test.upload()
-            log.info("Upload speed received!")
-            plog(10, upload_value)
-        except Exception as error:
-            log.error(f"Unable to determine upload speed.\nError - {error}")
-            raise error
-        self._uploads = upload_value
+    def __init__(self) -> None:
+        self.speed_test = st.Speedtest()
+        self._server_stats = self.retrieve_best_server()
+        self._download_speed = self.retrieve_download_speed()
+        self._upload_speed = self.retrieve_upload_speed()
 
     @property
     def server_stats(self) -> dict[str, Any]:
@@ -86,11 +74,29 @@ class SpeedTest:
 
     @property
     def download_speed(self) -> float:
-        return self._downloads
+        return self._download_speed
 
     @property
     def upload_speed(self) -> dict[str, Any]:
-        return self._uploads
+        return self._upload_speed
+
+    @test_retrieval_log
+    def retrieve_best_server(self) -> dict[str, Any]:
+        """Queries for the best server nearby and returns statistics"""
+        self._server_stat_dict = self.speed_test.get_best_server()
+        return self._server_stat_dict
+
+    @test_retrieval_log
+    def retrieve_download_speed(self) -> float:
+        """Downloads a package and returns the download speed."""
+        self._download_speed_value = self.speed_test.download()
+        return self._download_speed_value
+
+    @test_retrieval_log
+    def retrieve_upload_speed(self) -> float:
+        """Uploads a package and returns the download speed."""
+        self._upload_speed_value = self.speed_test.upload()
+        return self._upload_speed_value
 
 
 if __name__ == "__main__":
@@ -101,7 +107,3 @@ if __name__ == "__main__":
     downloads = speed_test.download_speed
     uploads = speed_test.upload_speed
     add_log_footer()
-
-    pprint(server_stats)
-    pprint(downloads)
-    pprint(uploads)
