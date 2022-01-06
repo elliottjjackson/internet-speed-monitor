@@ -83,3 +83,205 @@
 [14:19:02] {main.py:45} INFO - Retrieving data with update_upload_speed
 [14:19:13] {main.py:48} INFO - Data retrieved with update_upload_speed
 [14:19:13] {main.py:37} DEBUG - 16033136.918387422
+
+
+<<< RUNNING main.py >>>
+[15:01:48] {main.py:47} INFO - Retrieving data with update_best_server
+[15:01:49] {main.py:50} INFO - Data retrieved with update_best_server
+[15:01:49] {main.py:34} DEBUG - url: http://wa-knsg-speedtest.aarnet.net.au:8080/speedtest/upload.php
+[15:01:49] {main.py:34} DEBUG - lat: -31.9554
+[15:01:49] {main.py:34} DEBUG - lon: 115.8585
+[15:01:49] {main.py:34} DEBUG - name: Perth
+[15:01:49] {main.py:34} DEBUG - country: Australia
+[15:01:49] {main.py:34} DEBUG - cc: AU
+[15:01:49] {main.py:34} DEBUG - sponsor: AARNet
+[15:01:49] {main.py:34} DEBUG - id: 6153
+[15:01:49] {main.py:34} DEBUG - host: wa-knsg-speedtest.aarnet.net.au:8080
+[15:01:49] {main.py:34} DEBUG - d: 1.069870420577675
+[15:01:49] {main.py:34} DEBUG - latency: 5.343
+[15:01:49] {main.py:39} DEBUG - {'url': 'http://wa-knsg-speedtest.aarnet.net.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'AARNet', 'id': '6153', 'host': 'wa-knsg-speedtest.aarnet.net.au:8080', 'd': 1.069870420577675, 'latency': 5.343}
+[15:01:49] {main.py:47} INFO - Retrieving data with update_upload_speed
+
+
+<<< RUNNING main.py >>>
+[15:02:04] {main.py:47} INFO - Retrieving data with update_best_server
+[15:02:05] {main.py:50} INFO - Data retrieved with update_best_server
+[15:02:05] {main.py:34} DEBUG - url: http://wa-knsg-speedtest.aarnet.net.au:8080/speedtest/upload.php
+[15:02:05] {main.py:34} DEBUG - lat: -31.9554
+[15:02:05] {main.py:34} DEBUG - lon: 115.8585
+[15:02:05] {main.py:34} DEBUG - name: Perth
+[15:02:05] {main.py:34} DEBUG - country: Australia
+[15:02:05] {main.py:34} DEBUG - cc: AU
+[15:02:05] {main.py:34} DEBUG - sponsor: AARNet
+[15:02:05] {main.py:34} DEBUG - id: 6153
+[15:02:05] {main.py:34} DEBUG - host: wa-knsg-speedtest.aarnet.net.au:8080
+[15:02:05] {main.py:34} DEBUG - d: 1.069870420577675
+[15:02:05] {main.py:34} DEBUG - latency: 8.696
+[15:02:05] {main.py:39} DEBUG - {'url': 'http://wa-knsg-speedtest.aarnet.net.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'AARNet', 'id': '6153', 'host': 'wa-knsg-speedtest.aarnet.net.au:8080', 'd': 1.069870420577675, 'latency': 8.696}
+
+
+<<< RUNNING main.py >>>
+[15:09:39] {main.py:47} INFO - Retrieving data with update_best_server
+[15:09:44] {main.py:50} INFO - Data retrieved with update_best_server
+[15:09:44] {main.py:34} DEBUG - url: http://speedtest-perth.launtel.net.au:8080/speedtest/upload.php
+[15:09:44] {main.py:34} DEBUG - lat: -31.9554
+[15:09:44] {main.py:34} DEBUG - lon: 115.8585
+[15:09:44] {main.py:34} DEBUG - name: Perth
+[15:09:44] {main.py:34} DEBUG - country: Australia
+[15:09:44] {main.py:34} DEBUG - cc: AU
+[15:09:44] {main.py:34} DEBUG - sponsor: Launtel
+[15:09:44] {main.py:34} DEBUG - id: 39122
+[15:09:44] {main.py:34} DEBUG - host: speedtest-perth.launtel.net.au:8080
+[15:09:44] {main.py:34} DEBUG - d: 1.069870420577675
+[15:09:44] {main.py:34} DEBUG - latency: 67.027
+[15:09:44] {main.py:39} DEBUG - {'url': 'http://speedtest-perth.launtel.net.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Launtel', 'id': '39122', 'host': 'speedtest-perth.launtel.net.au:8080', 'd': 1.069870420577675, 'latency': 67.027}
+[15:09:44] {main.py:47} INFO - Retrieving data with update_download_speed
+[15:09:54] {main.py:50} INFO - Data retrieved with update_download_speed
+[15:09:54] {main.py:39} DEBUG - 27615983.45415168
+[15:09:54] {main.py:47} INFO - Retrieving data with update_upload_speed
+[15:10:04] {main.py:50} INFO - Data retrieved with update_upload_speed
+[15:10:04] {main.py:39} DEBUG - 14232682.821313754
+
+
+<<< SCRIPT main.py COMPLETE >>>
+
+
+<<< RUNNING main.py >>>
+[15:35:47] {main.py:47} INFO - Retrieving data with update_best_server
+[15:35:50] {main.py:50} INFO - Data retrieved with update_best_server
+[15:35:50] {main.py:34} DEBUG - url: http://speedtest.wa.edgeix.net.au:8080/speedtest/upload.php
+[15:35:50] {main.py:34} DEBUG - lat: -31.9554
+[15:35:50] {main.py:34} DEBUG - lon: 115.8585
+[15:35:50] {main.py:34} DEBUG - name: Perth
+[15:35:50] {main.py:34} DEBUG - country: Australia
+[15:35:50] {main.py:34} DEBUG - cc: AU
+[15:35:50] {main.py:34} DEBUG - sponsor: EdgeIX
+[15:35:50] {main.py:34} DEBUG - id: 35802
+[15:35:50] {main.py:34} DEBUG - host: speedtest.wa.edgeix.net.au:8080
+[15:35:50] {main.py:34} DEBUG - d: 1.069870420577675
+[15:35:50] {main.py:34} DEBUG - latency: 62.162
+[15:35:50] {main.py:39} DEBUG - {'url': 'http://speedtest.wa.edgeix.net.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'EdgeIX', 'id': '35802', 'host': 'speedtest.wa.edgeix.net.au:8080', 'd': 1.069870420577675, 'latency': 62.162}
+[15:35:50] {main.py:47} INFO - Retrieving data with update_download_speed
+[15:36:00] {main.py:50} INFO - Data retrieved with update_download_speed
+[15:36:00] {main.py:39} DEBUG - 40143286.66584479
+[15:36:00] {main.py:47} INFO - Retrieving data with update_upload_speed
+[15:36:11] {main.py:50} INFO - Data retrieved with update_upload_speed
+[15:36:11] {main.py:39} DEBUG - 10115925.35048498
+
+
+<<< RUNNING main.py >>>
+[15:36:11] {main.py:47} INFO - Retrieving data with update_best_server
+[15:36:15] {main.py:50} INFO - Data retrieved with update_best_server
+[15:36:15] {main.py:34} DEBUG - url: http://speedtest-perth.launtel.net.au:8080/speedtest/upload.php
+[15:36:15] {main.py:34} DEBUG - lat: -31.9554
+[15:36:15] {main.py:34} DEBUG - lon: 115.8585
+[15:36:15] {main.py:34} DEBUG - name: Perth
+[15:36:15] {main.py:34} DEBUG - country: Australia
+[15:36:15] {main.py:34} DEBUG - cc: AU
+[15:36:15] {main.py:34} DEBUG - sponsor: Launtel
+[15:36:15] {main.py:34} DEBUG - id: 39122
+[15:36:15] {main.py:34} DEBUG - host: speedtest-perth.launtel.net.au:8080
+[15:36:15] {main.py:34} DEBUG - d: 1.069870420577675
+[15:36:15] {main.py:34} DEBUG - latency: 52.227
+[15:36:15] {main.py:39} DEBUG - {'url': 'http://speedtest-perth.launtel.net.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Launtel', 'id': '39122', 'host': 'speedtest-perth.launtel.net.au:8080', 'd': 1.069870420577675, 'latency': 52.227}
+[15:36:15] {main.py:47} INFO - Retrieving data with update_download_speed
+[15:36:25] {main.py:50} INFO - Data retrieved with update_download_speed
+[15:36:25] {main.py:39} DEBUG - 19561743.12116815
+[15:36:25] {main.py:47} INFO - Retrieving data with update_upload_speed
+[15:36:36] {main.py:50} INFO - Data retrieved with update_upload_speed
+[15:36:36] {main.py:39} DEBUG - 10520385.013921518
+
+
+<<< RUNNING main.py >>>
+[15:50:29] {main.py:45} INFO - Retrieving data with update_best_server
+[15:50:33] {main.py:48} INFO - Data retrieved with update_best_server
+[15:50:33] {main.py:32} DEBUG - url: http://wa-knsg-speedtest.aarnet.net.au:8080/speedtest/upload.php
+[15:50:33] {main.py:32} DEBUG - lat: -31.9554
+[15:50:33] {main.py:32} DEBUG - lon: 115.8585
+[15:50:33] {main.py:32} DEBUG - name: Perth
+[15:50:33] {main.py:32} DEBUG - country: Australia
+[15:50:33] {main.py:32} DEBUG - cc: AU
+[15:50:33] {main.py:32} DEBUG - sponsor: AARNet
+[15:50:33] {main.py:32} DEBUG - id: 6153
+[15:50:33] {main.py:32} DEBUG - host: wa-knsg-speedtest.aarnet.net.au:8080
+[15:50:33] {main.py:32} DEBUG - d: 1.069870420577675
+[15:50:33] {main.py:32} DEBUG - latency: 89.905
+[15:50:33] {main.py:37} DEBUG - {'url': 'http://wa-knsg-speedtest.aarnet.net.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'AARNet', 'id': '6153', 'host': 'wa-knsg-speedtest.aarnet.net.au:8080', 'd': 1.069870420577675, 'latency': 89.905}
+[15:50:33] {main.py:45} INFO - Retrieving data with update_download_speed
+[15:50:43] {main.py:48} INFO - Data retrieved with update_download_speed
+[15:50:43] {main.py:37} DEBUG - 18557864.871859692
+[15:50:43] {main.py:45} INFO - Retrieving data with update_upload_speed
+[15:50:55] {main.py:48} INFO - Data retrieved with update_upload_speed
+[15:50:55] {main.py:37} DEBUG - 11059183.08556433
+
+
+<<< RUNNING main.py >>>
+[16:35:10] {main.py:45} INFO - Retrieving data with update_best_server
+[16:35:11] {main.py:48} INFO - Data retrieved with update_best_server
+[16:35:11] {main.py:32} DEBUG - url: http://wa-knsg-speedtest.aarnet.net.au:8080/speedtest/upload.php
+[16:35:11] {main.py:32} DEBUG - lat: -31.9554
+[16:35:11] {main.py:32} DEBUG - lon: 115.8585
+[16:35:11] {main.py:32} DEBUG - name: Perth
+[16:35:11] {main.py:32} DEBUG - country: Australia
+[16:35:11] {main.py:32} DEBUG - cc: AU
+[16:35:11] {main.py:32} DEBUG - sponsor: AARNet
+[16:35:11] {main.py:32} DEBUG - id: 6153
+[16:35:11] {main.py:32} DEBUG - host: wa-knsg-speedtest.aarnet.net.au:8080
+[16:35:11] {main.py:32} DEBUG - d: 1.069870420577675
+[16:35:11] {main.py:32} DEBUG - latency: 5.499
+[16:35:11] {main.py:37} DEBUG - {'url': 'http://wa-knsg-speedtest.aarnet.net.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'AARNet', 'id': '6153', 'host': 'wa-knsg-speedtest.aarnet.net.au:8080', 'd': 1.069870420577675, 'latency': 5.499}
+[16:35:11] {main.py:45} INFO - Retrieving data with update_download_speed
+[16:35:21] {main.py:48} INFO - Data retrieved with update_download_speed
+[16:35:21] {main.py:37} DEBUG - 53775019.38917624
+[16:35:21] {main.py:45} INFO - Retrieving data with update_upload_speed
+[16:35:31] {main.py:48} INFO - Data retrieved with update_upload_speed
+[16:35:31] {main.py:37} DEBUG - 13483491.282036275
+
+
+<<< RUNNING main.py >>>
+[16:36:41] {main.py:45} INFO - Retrieving data with update_best_server
+[16:36:41] {main.py:48} INFO - Data retrieved with update_best_server
+[16:36:41] {main.py:32} DEBUG - url: http://speedtest-perth.launtel.net.au:8080/speedtest/upload.php
+[16:36:41] {main.py:32} DEBUG - lat: -31.9554
+[16:36:41] {main.py:32} DEBUG - lon: 115.8585
+[16:36:41] {main.py:32} DEBUG - name: Perth
+[16:36:41] {main.py:32} DEBUG - country: Australia
+[16:36:41] {main.py:32} DEBUG - cc: AU
+[16:36:41] {main.py:32} DEBUG - sponsor: Launtel
+[16:36:41] {main.py:32} DEBUG - id: 39122
+[16:36:41] {main.py:32} DEBUG - host: speedtest-perth.launtel.net.au:8080
+[16:36:41] {main.py:32} DEBUG - d: 1.069870420577675
+[16:36:41] {main.py:32} DEBUG - latency: 5.43
+[16:36:41] {main.py:37} DEBUG - {'url': 'http://speedtest-perth.launtel.net.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Launtel', 'id': '39122', 'host': 'speedtest-perth.launtel.net.au:8080', 'd': 1.069870420577675, 'latency': 5.43}
+[16:36:41] {main.py:45} INFO - Retrieving data with update_download_speed
+[16:36:51] {main.py:48} INFO - Data retrieved with update_download_speed
+[16:36:51] {main.py:37} DEBUG - 53902403.44821107
+[16:36:51] {main.py:45} INFO - Retrieving data with update_upload_speed
+[16:37:01] {main.py:48} INFO - Data retrieved with update_upload_speed
+[16:37:01] {main.py:37} DEBUG - 17119235.9240722
+
+
+<<< RUNNING main.py >>>
+[16:41:53] {main.py:45} INFO - Retrieving data with update_best_server
+[16:41:54] {main.py:48} INFO - Data retrieved with update_best_server
+[16:41:54] {main.py:32} DEBUG - url: http://wa-knsg-speedtest.aarnet.net.au:8080/speedtest/upload.php
+[16:41:54] {main.py:32} DEBUG - lat: -31.9554
+[16:41:54] {main.py:32} DEBUG - lon: 115.8585
+[16:41:54] {main.py:32} DEBUG - name: Perth
+[16:41:54] {main.py:32} DEBUG - country: Australia
+[16:41:54] {main.py:32} DEBUG - cc: AU
+[16:41:54] {main.py:32} DEBUG - sponsor: AARNet
+[16:41:54] {main.py:32} DEBUG - id: 6153
+[16:41:54] {main.py:32} DEBUG - host: wa-knsg-speedtest.aarnet.net.au:8080
+[16:41:54] {main.py:32} DEBUG - d: 1.069870420577675
+[16:41:54] {main.py:32} DEBUG - latency: 5.31
+[16:41:54] {main.py:37} DEBUG - {'url': 'http://wa-knsg-speedtest.aarnet.net.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'AARNet', 'id': '6153', 'host': 'wa-knsg-speedtest.aarnet.net.au:8080', 'd': 1.069870420577675, 'latency': 5.31}
+[16:41:54] {main.py:45} INFO - Retrieving data with update_download_speed
+[16:42:04] {main.py:48} INFO - Data retrieved with update_download_speed
+[16:42:04] {main.py:37} DEBUG - 53787501.232105635
+[16:42:04] {main.py:45} INFO - Retrieving data with update_upload_speed
+[16:42:15] {main.py:48} INFO - Data retrieved with update_upload_speed
+[16:42:15] {main.py:37} DEBUG - 16357906.701767895
+
+
+<<< SCRIPT main.py COMPLETE >>>
