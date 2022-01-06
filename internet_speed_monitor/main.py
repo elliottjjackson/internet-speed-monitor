@@ -18,16 +18,10 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 
-def add_log_header() -> None:
+def add_log_header(message: str) -> None:
     """Add log header to log."""
     with open(log_filename, "a") as f:
-        f.write(f"\n\n<<< RUNNING {script_filename} >>>\n")
-
-
-def add_log_footer() -> None:
-    """Add log footer to log."""
-    with open(log_filename, "a") as f:
-        f.write(f"<<< SCRIPT COMPLETE {script_filename} >>>\n")
+        f.write(f"\n\n<<< {message} >>>\n")
 
 
 def plog(logging_level: int, object_to_log: Any) -> None:
@@ -101,9 +95,9 @@ class SpeedTest:
 
 if __name__ == "__main__":
 
-    add_log_header()
+    add_log_header(f"RUNNING {script_filename}")
     speed_test = SpeedTest()
     server_stats = speed_test.server_stats
     download = speed_test.download_speed
     upload = speed_test.upload_speed
-    add_log_footer()
+    add_log_header(f"SCRIPT {script_filename} COMPLETE")
