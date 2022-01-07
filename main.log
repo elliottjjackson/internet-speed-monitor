@@ -285,3 +285,474 @@
 
 
 <<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING main.py >>>
+[12:10:49] {main.py:45} INFO - Retrieving data with update_best_server
+[12:10:50] {main.py:48} INFO - Data retrieved with update_best_server
+[12:10:50] {main.py:32} DEBUG - url: http://ger-speedtest-01.nodeone.com.au:8080/speedtest/upload.php
+[12:10:50] {main.py:32} DEBUG - lat: -28.7811
+[12:10:50] {main.py:32} DEBUG - lon: 114.6125
+[12:10:50] {main.py:32} DEBUG - name: Geraldton
+[12:10:50] {main.py:32} DEBUG - country: Australia
+[12:10:50] {main.py:32} DEBUG - cc: AU
+[12:10:50] {main.py:32} DEBUG - sponsor: NodeOne
+[12:10:50] {main.py:32} DEBUG - id: 31364
+[12:10:50] {main.py:32} DEBUG - host: ger-speedtest-01.nodeone.com.au:8080
+[12:10:50] {main.py:32} DEBUG - d: 372.00256314661686
+[12:10:50] {main.py:32} DEBUG - latency: 17.748
+[12:10:50] {main.py:37} DEBUG - {'url': 'http://ger-speedtest-01.nodeone.com.au:8080/speedtest/upload.php', 'lat': '-28.7811', 'lon': '114.6125', 'name': 'Geraldton', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'NodeOne', 'id': '31364', 'host': 'ger-speedtest-01.nodeone.com.au:8080', 'd': 372.00256314661686, 'latency': 17.748}
+[12:10:50] {main.py:45} INFO - Retrieving data with update_download_speed
+
+<<< RUNNING main.py >>>
+[12:49:57] {main.py:49} INFO - Retrieving data with update_best_server
+[12:49:58] {main.py:52} INFO - Data retrieved with update_best_server
+[12:49:58] {main.py:36} DEBUG - url: http://speedtest.wa.edgeix.net.au:8080/speedtest/upload.php
+[12:49:58] {main.py:36} DEBUG - lat: -31.9554
+[12:49:58] {main.py:36} DEBUG - lon: 115.8585
+[12:49:58] {main.py:36} DEBUG - name: Perth
+[12:49:58] {main.py:36} DEBUG - country: Australia
+[12:49:58] {main.py:36} DEBUG - cc: AU
+[12:49:58] {main.py:36} DEBUG - sponsor: EdgeIX
+[12:49:58] {main.py:36} DEBUG - id: 35802
+[12:49:58] {main.py:36} DEBUG - host: speedtest.wa.edgeix.net.au:8080
+[12:49:58] {main.py:36} DEBUG - d: 1.069870420577675
+[12:49:58] {main.py:36} DEBUG - latency: 5.225
+[12:49:58] {main.py:41} DEBUG - {'url': 'http://speedtest.wa.edgeix.net.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'EdgeIX', 'id': '35802', 'host': 'speedtest.wa.edgeix.net.au:8080', 'd': 1.069870420577675, 'latency': 5.225}
+[12:49:58] {main.py:49} INFO - Retrieving data with update_download_speed
+[12:50:08] {main.py:52} INFO - Data retrieved with update_download_speed
+[12:50:08] {main.py:41} DEBUG - 51822120.42294562
+[12:50:08] {main.py:49} INFO - Retrieving data with update_upload_speed
+[12:50:19] {main.py:52} INFO - Data retrieved with update_upload_speed
+[12:50:19] {main.py:41} DEBUG - 9886839.874582948
+[12:50:20] {main.py:145} ERROR - Error encountered: unable to open database file
+
+<<< RUNNING main.py >>>
+[12:51:31] {main.py:145} ERROR - Error encountered: unable to open database file
+
+<<< RUNNING main.py >>>
+
+<<< RUNNING main.py >>>
+[13:01:11] {main.py:147} ERROR - Error encountered: unable to open database file
+
+<<< RUNNING main.py >>>
+
+<<< RUNNING main.py >>>
+[13:01:37] {main.py:147} ERROR - Error encountered: unable to open database file
+
+<<< RUNNING main.py >>>
+
+<<< RUNNING main.py >>>
+[13:02:22] {main.py:147} ERROR - Error encountered: unable to open database file
+
+<<< RUNNING main.py >>>
+
+<<< RUNNING main.py >>>
+[13:03:14] {main.py:145} ERROR - Error encountered: unable to open database file
+
+<<< RUNNING main.py >>>
+
+<<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING main.py >>>
+
+<<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING main.py >>>
+
+<<< RUNNING main.py >>>
+[13:49:17] {main.py:50} INFO - Retrieving data with update_best_server
+[13:49:19] {main.py:53} INFO - Data retrieved with update_best_server
+[13:49:19] {main.py:37} DEBUG - url: https://speedtest-broome-wa.optusnet.com.au:8080/speedtest/upload.php
+[13:49:19] {main.py:37} DEBUG - lat: -17.9614
+[13:49:19] {main.py:37} DEBUG - lon: 122.2359
+[13:49:19] {main.py:37} DEBUG - name: Broome
+[13:49:19] {main.py:37} DEBUG - country: Australia
+[13:49:19] {main.py:37} DEBUG - cc: AU
+[13:49:19] {main.py:37} DEBUG - sponsor: Optus
+[13:49:19] {main.py:37} DEBUG - id: 10630
+[13:49:19] {main.py:37} DEBUG - host: speedtest-broome-wa.optusnet.com.au:8080
+[13:49:19] {main.py:37} DEBUG - d: 1681.5594155625438
+[13:49:19] {main.py:37} DEBUG - latency: 12.94
+[13:49:19] {main.py:42} DEBUG - {'url': 'https://speedtest-broome-wa.optusnet.com.au:8080/speedtest/upload.php', 'lat': '-17.9614', 'lon': '122.2359', 'name': 'Broome', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Optus', 'id': '10630', 'host': 'speedtest-broome-wa.optusnet.com.au:8080', 'd': 1681.5594155625438, 'latency': 12.94}
+[13:49:19] {main.py:50} INFO - Retrieving data with update_download_speed
+[13:49:29] {main.py:53} INFO - Data retrieved with update_download_speed
+[13:49:29] {main.py:42} DEBUG - 53468299.10122114
+[13:49:29] {main.py:50} INFO - Retrieving data with update_upload_speed
+[13:49:39] {main.py:53} INFO - Data retrieved with update_upload_speed
+[13:49:39] {main.py:42} DEBUG - 15306118.793150714
+[13:49:39] {main.py:182} ERROR - Error occurred while adding headers. Error: no such table: speedtest
+
+<<< RUNNING main.py >>>
+[13:51:22] {main.py:50} INFO - Retrieving data with update_best_server
+[13:51:22] {main.py:53} INFO - Data retrieved with update_best_server
+[13:51:22] {main.py:37} DEBUG - url: http://speedtest.wa.ix.asn.au:8080/speedtest/upload.php
+[13:51:22] {main.py:37} DEBUG - lat: -31.9554
+[13:51:22] {main.py:37} DEBUG - lon: 115.8585
+[13:51:22] {main.py:37} DEBUG - name: Perth
+[13:51:22] {main.py:37} DEBUG - country: Australia
+[13:51:22] {main.py:37} DEBUG - cc: AU
+[13:51:22] {main.py:37} DEBUG - sponsor: IX Australia
+[13:51:22] {main.py:37} DEBUG - id: 1931
+[13:51:22] {main.py:37} DEBUG - host: speedtest.wa.ix.asn.au:8080
+[13:51:22] {main.py:37} DEBUG - d: 1.069870420577675
+[13:51:22] {main.py:37} DEBUG - latency: 4.747
+[13:51:22] {main.py:42} DEBUG - {'url': 'http://speedtest.wa.ix.asn.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'IX Australia', 'id': '1931', 'host': 'speedtest.wa.ix.asn.au:8080', 'd': 1.069870420577675, 'latency': 4.747}
+[13:51:22] {main.py:50} INFO - Retrieving data with update_download_speed
+[13:51:33] {main.py:53} INFO - Data retrieved with update_download_speed
+[13:51:33] {main.py:42} DEBUG - 53729939.89914715
+[13:51:33] {main.py:50} INFO - Retrieving data with update_upload_speed
+[13:51:43] {main.py:53} INFO - Data retrieved with update_upload_speed
+[13:51:43] {main.py:42} DEBUG - 12670542.815238414
+[13:51:43] {main.py:181} ERROR - Error occurred while adding headers. Error: near "NULLADD": syntax error
+
+<<< RUNNING main.py >>>
+[13:52:26] {main.py:50} INFO - Retrieving data with update_best_server
+[13:52:26] {main.py:53} INFO - Data retrieved with update_best_server
+[13:52:26] {main.py:37} DEBUG - url: http://speedtest.wa.ix.asn.au:8080/speedtest/upload.php
+[13:52:26] {main.py:37} DEBUG - lat: -31.9554
+[13:52:26] {main.py:37} DEBUG - lon: 115.8585
+[13:52:26] {main.py:37} DEBUG - name: Perth
+[13:52:26] {main.py:37} DEBUG - country: Australia
+[13:52:26] {main.py:37} DEBUG - cc: AU
+[13:52:26] {main.py:37} DEBUG - sponsor: IX Australia
+[13:52:26] {main.py:37} DEBUG - id: 1931
+[13:52:26] {main.py:37} DEBUG - host: speedtest.wa.ix.asn.au:8080
+[13:52:26] {main.py:37} DEBUG - d: 1.069870420577675
+[13:52:26] {main.py:37} DEBUG - latency: 5.032
+[13:52:26] {main.py:42} DEBUG - {'url': 'http://speedtest.wa.ix.asn.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'IX Australia', 'id': '1931', 'host': 'speedtest.wa.ix.asn.au:8080', 'd': 1.069870420577675, 'latency': 5.032}
+[13:52:26] {main.py:50} INFO - Retrieving data with update_download_speed
+[13:52:36] {main.py:53} INFO - Data retrieved with update_download_speed
+[13:52:36] {main.py:42} DEBUG - 54206163.68753422
+[13:52:36] {main.py:50} INFO - Retrieving data with update_upload_speed
+[13:52:47] {main.py:53} INFO - Data retrieved with update_upload_speed
+[13:52:47] {main.py:42} DEBUG - 11635110.528879618
+[13:52:47] {main.py:181} ERROR - Error occurred while adding headers. Error: near "ADD": syntax error
+
+<<< RUNNING main.py >>>
+[13:56:32] {main.py:50} INFO - Retrieving data with update_best_server
+[13:56:32] {main.py:53} INFO - Data retrieved with update_best_server
+[13:56:32] {main.py:37} DEBUG - url: http://speedtest.wa.edgeix.net.au:8080/speedtest/upload.php
+[13:56:32] {main.py:37} DEBUG - lat: -31.9554
+[13:56:32] {main.py:37} DEBUG - lon: 115.8585
+[13:56:32] {main.py:37} DEBUG - name: Perth
+[13:56:32] {main.py:37} DEBUG - country: Australia
+[13:56:32] {main.py:37} DEBUG - cc: AU
+[13:56:32] {main.py:37} DEBUG - sponsor: EdgeIX
+[13:56:32] {main.py:37} DEBUG - id: 35802
+[13:56:32] {main.py:37} DEBUG - host: speedtest.wa.edgeix.net.au:8080
+[13:56:32] {main.py:37} DEBUG - d: 1.069870420577675
+[13:56:32] {main.py:37} DEBUG - latency: 5.22
+[13:56:32] {main.py:42} DEBUG - {'url': 'http://speedtest.wa.edgeix.net.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'EdgeIX', 'id': '35802', 'host': 'speedtest.wa.edgeix.net.au:8080', 'd': 1.069870420577675, 'latency': 5.22}
+[13:56:32] {main.py:50} INFO - Retrieving data with update_download_speed
+[13:56:42] {main.py:53} INFO - Data retrieved with update_download_speed
+[13:56:42] {main.py:42} DEBUG - 53532492.45833309
+[13:56:42] {main.py:50} INFO - Retrieving data with update_upload_speed
+[13:56:52] {main.py:53} INFO - Data retrieved with update_upload_speed
+[13:56:52] {main.py:42} DEBUG - 11488789.11609207
+[13:56:52] {main.py:181} ERROR - Error occurred while adding headers. Error: near ",": syntax error
+
+<<< RUNNING main.py >>>
+[13:57:41] {main.py:50} INFO - Retrieving data with update_best_server
+[13:57:41] {main.py:53} INFO - Data retrieved with update_best_server
+[13:57:41] {main.py:37} DEBUG - url: http://speedtest-p1.interphone.com.au:8080/speedtest/upload.php
+[13:57:41] {main.py:37} DEBUG - lat: -31.9554
+[13:57:41] {main.py:37} DEBUG - lon: 115.8585
+[13:57:41] {main.py:37} DEBUG - name: Perth
+[13:57:41] {main.py:37} DEBUG - country: Australia
+[13:57:41] {main.py:37} DEBUG - cc: AU
+[13:57:41] {main.py:37} DEBUG - sponsor: Interphone Pty Ltd
+[13:57:41] {main.py:37} DEBUG - id: 45707
+[13:57:41] {main.py:37} DEBUG - host: speedtest-p1.interphone.com.au:8080
+[13:57:41] {main.py:37} DEBUG - d: 1.069870420577675
+[13:57:41] {main.py:37} DEBUG - latency: 5.06
+[13:57:41] {main.py:42} DEBUG - {'url': 'http://speedtest-p1.interphone.com.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Interphone Pty Ltd', 'id': '45707', 'host': 'speedtest-p1.interphone.com.au:8080', 'd': 1.069870420577675, 'latency': 5.06}
+[13:57:41] {main.py:50} INFO - Retrieving data with update_download_speed
+[13:57:51] {main.py:53} INFO - Data retrieved with update_download_speed
+[13:57:51] {main.py:42} DEBUG - 52853004.9502361
+[13:57:51] {main.py:50} INFO - Retrieving data with update_upload_speed
+[13:58:03] {main.py:53} INFO - Data retrieved with update_upload_speed
+[13:58:03] {main.py:42} DEBUG - 13737801.996368919
+[13:58:03] {main.py:182} ERROR - Error occurred while adding headers. Error: near ",": syntax error
+
+<<< RUNNING main.py >>>
+[13:59:04] {main.py:50} INFO - Retrieving data with update_best_server
+[13:59:05] {main.py:53} INFO - Data retrieved with update_best_server
+[13:59:05] {main.py:37} DEBUG - url: http://speedtest.wa.ix.asn.au:8080/speedtest/upload.php
+[13:59:05] {main.py:37} DEBUG - lat: -31.9554
+[13:59:05] {main.py:37} DEBUG - lon: 115.8585
+[13:59:05] {main.py:37} DEBUG - name: Perth
+[13:59:05] {main.py:37} DEBUG - country: Australia
+[13:59:05] {main.py:37} DEBUG - cc: AU
+[13:59:05] {main.py:37} DEBUG - sponsor: IX Australia
+[13:59:05] {main.py:37} DEBUG - id: 1931
+[13:59:05] {main.py:37} DEBUG - host: speedtest.wa.ix.asn.au:8080
+[13:59:05] {main.py:37} DEBUG - d: 1.069870420577675
+[13:59:05] {main.py:37} DEBUG - latency: 4.923
+[13:59:05] {main.py:42} DEBUG - {'url': 'http://speedtest.wa.ix.asn.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'IX Australia', 'id': '1931', 'host': 'speedtest.wa.ix.asn.au:8080', 'd': 1.069870420577675, 'latency': 4.923}
+[13:59:05] {main.py:50} INFO - Retrieving data with update_download_speed
+[13:59:15] {main.py:53} INFO - Data retrieved with update_download_speed
+[13:59:15] {main.py:42} DEBUG - 54023183.83267136
+[13:59:15] {main.py:50} INFO - Retrieving data with update_upload_speed
+[13:59:25] {main.py:53} INFO - Data retrieved with update_upload_speed
+[13:59:25] {main.py:42} DEBUG - 12345746.30763768
+[13:59:25] {main.py:182} ERROR - Error occurred while adding headers. Error: near ",": syntax error
+
+<<< RUNNING main.py >>>
+[14:00:05] {main.py:50} INFO - Retrieving data with update_best_server
+[14:00:05] {main.py:56} ERROR - Error occurred while running update_best_server
+Error - Unable to connect to servers to test latency.
+
+<<< RUNNING main.py >>>
+[14:00:23] {main.py:50} INFO - Retrieving data with update_best_server
+[14:00:24] {main.py:53} INFO - Data retrieved with update_best_server
+[14:00:24] {main.py:37} DEBUG - url: http://speedtest.wa.ix.asn.au:8080/speedtest/upload.php
+[14:00:24] {main.py:37} DEBUG - lat: -31.9554
+[14:00:24] {main.py:37} DEBUG - lon: 115.8585
+[14:00:24] {main.py:37} DEBUG - name: Perth
+[14:00:24] {main.py:37} DEBUG - country: Australia
+[14:00:24] {main.py:37} DEBUG - cc: AU
+[14:00:24] {main.py:37} DEBUG - sponsor: IX Australia
+[14:00:24] {main.py:37} DEBUG - id: 1931
+[14:00:24] {main.py:37} DEBUG - host: speedtest.wa.ix.asn.au:8080
+[14:00:24] {main.py:37} DEBUG - d: 1.069870420577675
+[14:00:24] {main.py:37} DEBUG - latency: 5.083
+[14:00:24] {main.py:42} DEBUG - {'url': 'http://speedtest.wa.ix.asn.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'IX Australia', 'id': '1931', 'host': 'speedtest.wa.ix.asn.au:8080', 'd': 1.069870420577675, 'latency': 5.083}
+[14:00:24] {main.py:50} INFO - Retrieving data with update_download_speed
+[14:00:34] {main.py:53} INFO - Data retrieved with update_download_speed
+[14:00:34] {main.py:42} DEBUG - 53938497.24179251
+[14:00:34] {main.py:50} INFO - Retrieving data with update_upload_speed
+[14:00:44] {main.py:53} INFO - Data retrieved with update_upload_speed
+[14:00:44] {main.py:42} DEBUG - 12241663.566538243
+[14:00:44] {main.py:182} ERROR - Error occurred while adding headers. Error: near ",": syntax error
+
+<<< RUNNING main.py >>>
+[14:01:08] {main.py:50} INFO - Retrieving data with update_best_server
+[14:01:08] {main.py:53} INFO - Data retrieved with update_best_server
+[14:01:08] {main.py:37} DEBUG - url: http://speedtest.wa.edgeix.net.au:8080/speedtest/upload.php
+[14:01:08] {main.py:37} DEBUG - lat: -31.9554
+[14:01:08] {main.py:37} DEBUG - lon: 115.8585
+[14:01:08] {main.py:37} DEBUG - name: Perth
+[14:01:08] {main.py:37} DEBUG - country: Australia
+[14:01:08] {main.py:37} DEBUG - cc: AU
+[14:01:08] {main.py:37} DEBUG - sponsor: EdgeIX
+[14:01:08] {main.py:37} DEBUG - id: 35802
+[14:01:08] {main.py:37} DEBUG - host: speedtest.wa.edgeix.net.au:8080
+[14:01:08] {main.py:37} DEBUG - d: 1.069870420577675
+[14:01:08] {main.py:37} DEBUG - latency: 5.043
+[14:01:08] {main.py:42} DEBUG - {'url': 'http://speedtest.wa.edgeix.net.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'EdgeIX', 'id': '35802', 'host': 'speedtest.wa.edgeix.net.au:8080', 'd': 1.069870420577675, 'latency': 5.043}
+[14:01:08] {main.py:50} INFO - Retrieving data with update_download_speed
+[14:01:18] {main.py:53} INFO - Data retrieved with update_download_speed
+[14:01:18] {main.py:42} DEBUG - 53735150.63962973
+[14:01:18] {main.py:50} INFO - Retrieving data with update_upload_speed
+[14:01:29] {main.py:53} INFO - Data retrieved with update_upload_speed
+[14:01:29] {main.py:42} DEBUG - 11019043.460163422
+[14:01:29] {main.py:183} ERROR - Error occurred while adding headers. Error: near ",": syntax error
+
+<<< RUNNING main.py >>>
+[14:04:33] {main.py:50} INFO - Retrieving data with update_best_server
+[14:04:34] {main.py:53} INFO - Data retrieved with update_best_server
+[14:04:34] {main.py:37} DEBUG - url: http://speedtest.wa.edgeix.net.au:8080/speedtest/upload.php
+[14:04:34] {main.py:37} DEBUG - lat: -31.9554
+[14:04:34] {main.py:37} DEBUG - lon: 115.8585
+[14:04:34] {main.py:37} DEBUG - name: Perth
+[14:04:34] {main.py:37} DEBUG - country: Australia
+[14:04:34] {main.py:37} DEBUG - cc: AU
+[14:04:34] {main.py:37} DEBUG - sponsor: EdgeIX
+[14:04:34] {main.py:37} DEBUG - id: 35802
+[14:04:34] {main.py:37} DEBUG - host: speedtest.wa.edgeix.net.au:8080
+[14:04:34] {main.py:37} DEBUG - d: 1.069870420577675
+[14:04:34] {main.py:37} DEBUG - latency: 8.227
+[14:04:34] {main.py:42} DEBUG - {'url': 'http://speedtest.wa.edgeix.net.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'EdgeIX', 'id': '35802', 'host': 'speedtest.wa.edgeix.net.au:8080', 'd': 1.069870420577675, 'latency': 8.227}
+[14:04:34] {main.py:50} INFO - Retrieving data with update_download_speed
+[14:04:44] {main.py:53} INFO - Data retrieved with update_download_speed
+[14:04:44] {main.py:42} DEBUG - 52103693.46420875
+[14:04:44] {main.py:50} INFO - Retrieving data with update_upload_speed
+[14:04:55] {main.py:53} INFO - Data retrieved with update_upload_speed
+[14:04:55] {main.py:42} DEBUG - 11497620.207768613
+[14:04:55] {main.py:186} ERROR - Error occurred while adding headers. Error: near ",": syntax error
+
+<<< RUNNING main.py >>>
+[14:05:07] {main.py:50} INFO - Retrieving data with update_best_server
+[14:05:07] {main.py:53} INFO - Data retrieved with update_best_server
+[14:05:07] {main.py:37} DEBUG - url: http://speedtest.wa.ix.asn.au:8080/speedtest/upload.php
+[14:05:07] {main.py:37} DEBUG - lat: -31.9554
+[14:05:07] {main.py:37} DEBUG - lon: 115.8585
+[14:05:07] {main.py:37} DEBUG - name: Perth
+[14:05:07] {main.py:37} DEBUG - country: Australia
+[14:05:07] {main.py:37} DEBUG - cc: AU
+[14:05:07] {main.py:37} DEBUG - sponsor: IX Australia
+[14:05:07] {main.py:37} DEBUG - id: 1931
+[14:05:07] {main.py:37} DEBUG - host: speedtest.wa.ix.asn.au:8080
+[14:05:07] {main.py:37} DEBUG - d: 1.069870420577675
+[14:05:07] {main.py:37} DEBUG - latency: 4.777
+[14:05:07] {main.py:42} DEBUG - {'url': 'http://speedtest.wa.ix.asn.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'IX Australia', 'id': '1931', 'host': 'speedtest.wa.ix.asn.au:8080', 'd': 1.069870420577675, 'latency': 4.777}
+[14:05:07] {main.py:50} INFO - Retrieving data with update_download_speed
+[14:05:17] {main.py:53} INFO - Data retrieved with update_download_speed
+[14:05:17] {main.py:42} DEBUG - 54113293.03208022
+[14:05:17] {main.py:50} INFO - Retrieving data with update_upload_speed
+[14:05:27] {main.py:53} INFO - Data retrieved with update_upload_speed
+[14:05:27] {main.py:42} DEBUG - 11872392.508950386
+[14:05:27] {main.py:186} ERROR - Error occurred while adding headers. Error: near "ADD": syntax error
+
+<<< RUNNING main.py >>>
+[14:07:28] {main.py:50} INFO - Retrieving data with update_best_server
+[14:07:29] {main.py:53} INFO - Data retrieved with update_best_server
+[14:07:29] {main.py:37} DEBUG - url: http://speedtest-p1.interphone.com.au:8080/speedtest/upload.php
+[14:07:29] {main.py:37} DEBUG - lat: -31.9554
+[14:07:29] {main.py:37} DEBUG - lon: 115.8585
+[14:07:29] {main.py:37} DEBUG - name: Perth
+[14:07:29] {main.py:37} DEBUG - country: Australia
+[14:07:29] {main.py:37} DEBUG - cc: AU
+[14:07:29] {main.py:37} DEBUG - sponsor: Interphone Pty Ltd
+[14:07:29] {main.py:37} DEBUG - id: 45707
+[14:07:29] {main.py:37} DEBUG - host: speedtest-p1.interphone.com.au:8080
+[14:07:29] {main.py:37} DEBUG - d: 1.069870420577675
+[14:07:29] {main.py:37} DEBUG - latency: 4.727
+[14:07:29] {main.py:42} DEBUG - {'url': 'http://speedtest-p1.interphone.com.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Interphone Pty Ltd', 'id': '45707', 'host': 'speedtest-p1.interphone.com.au:8080', 'd': 1.069870420577675, 'latency': 4.727}
+[14:07:29] {main.py:50} INFO - Retrieving data with update_download_speed
+[14:07:39] {main.py:53} INFO - Data retrieved with update_download_speed
+[14:07:39] {main.py:42} DEBUG - 54031182.65631714
+[14:07:39] {main.py:50} INFO - Retrieving data with update_upload_speed
+[14:07:49] {main.py:53} INFO - Data retrieved with update_upload_speed
+[14:07:49] {main.py:42} DEBUG - 15969669.673706997
+[14:07:49] {main.py:183} ERROR - Error occurred while adding headers. Error: near ",": syntax error
+
+<<< RUNNING main.py >>>
+[14:08:57] {main.py:50} INFO - Retrieving data with update_best_server
+[14:08:57] {main.py:53} INFO - Data retrieved with update_best_server
+[14:08:57] {main.py:37} DEBUG - url: http://speedtest-p1.interphone.com.au:8080/speedtest/upload.php
+[14:08:57] {main.py:37} DEBUG - lat: -31.9554
+[14:08:57] {main.py:37} DEBUG - lon: 115.8585
+[14:08:57] {main.py:37} DEBUG - name: Perth
+[14:08:57] {main.py:37} DEBUG - country: Australia
+[14:08:57] {main.py:37} DEBUG - cc: AU
+[14:08:57] {main.py:37} DEBUG - sponsor: Interphone Pty Ltd
+[14:08:57] {main.py:37} DEBUG - id: 45707
+[14:08:57] {main.py:37} DEBUG - host: speedtest-p1.interphone.com.au:8080
+[14:08:57] {main.py:37} DEBUG - d: 1.069870420577675
+[14:08:57] {main.py:37} DEBUG - latency: 5.084
+[14:08:57] {main.py:42} DEBUG - {'url': 'http://speedtest-p1.interphone.com.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Interphone Pty Ltd', 'id': '45707', 'host': 'speedtest-p1.interphone.com.au:8080', 'd': 1.069870420577675, 'latency': 5.084}
+[14:08:57] {main.py:50} INFO - Retrieving data with update_download_speed
+[14:09:07] {main.py:53} INFO - Data retrieved with update_download_speed
+[14:09:07] {main.py:42} DEBUG - 54223094.51103464
+[14:09:07] {main.py:50} INFO - Retrieving data with update_upload_speed
+[14:09:18] {main.py:53} INFO - Data retrieved with update_upload_speed
+[14:09:18] {main.py:42} DEBUG - 15781925.009559656
+[14:09:18] {main.py:183} ERROR - Error occurred while adding headers. Error: near ",": syntax error
+
+<<< RUNNING main.py >>>
+[14:18:53] {main.py:50} INFO - Retrieving data with update_best_server
+[14:18:54] {main.py:53} INFO - Data retrieved with update_best_server
+[14:18:54] {main.py:37} DEBUG - url: http://speedtest.wa.edgeix.net.au:8080/speedtest/upload.php
+[14:18:54] {main.py:37} DEBUG - lat: -31.9554
+[14:18:54] {main.py:37} DEBUG - lon: 115.8585
+[14:18:54] {main.py:37} DEBUG - name: Perth
+[14:18:54] {main.py:37} DEBUG - country: Australia
+[14:18:54] {main.py:37} DEBUG - cc: AU
+[14:18:54] {main.py:37} DEBUG - sponsor: EdgeIX
+[14:18:54] {main.py:37} DEBUG - id: 35802
+[14:18:54] {main.py:37} DEBUG - host: speedtest.wa.edgeix.net.au:8080
+[14:18:54] {main.py:37} DEBUG - d: 1.069870420577675
+[14:18:54] {main.py:37} DEBUG - latency: 5.381
+[14:18:54] {main.py:42} DEBUG - {'url': 'http://speedtest.wa.edgeix.net.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'EdgeIX', 'id': '35802', 'host': 'speedtest.wa.edgeix.net.au:8080', 'd': 1.069870420577675, 'latency': 5.381}
+[14:18:54] {main.py:50} INFO - Retrieving data with update_download_speed
+[14:19:04] {main.py:53} INFO - Data retrieved with update_download_speed
+[14:19:04] {main.py:42} DEBUG - 54085139.5657057
+[14:19:04] {main.py:50} INFO - Retrieving data with update_upload_speed
+[14:19:14] {main.py:53} INFO - Data retrieved with update_upload_speed
+[14:19:14] {main.py:42} DEBUG - 11948053.413650079
+
+<<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING main.py >>>
+[14:27:24] {main.py:49} INFO - Retrieving data with update_best_server
+[14:27:24] {main.py:52} INFO - Data retrieved with update_best_server
+[14:27:24] {main.py:36} DEBUG - url: http://speedtest.wa.edgeix.net.au:8080/speedtest/upload.php
+[14:27:24] {main.py:36} DEBUG - lat: -31.9554
+[14:27:24] {main.py:36} DEBUG - lon: 115.8585
+[14:27:24] {main.py:36} DEBUG - name: Perth
+[14:27:24] {main.py:36} DEBUG - country: Australia
+[14:27:24] {main.py:36} DEBUG - cc: AU
+[14:27:24] {main.py:36} DEBUG - sponsor: EdgeIX
+[14:27:24] {main.py:36} DEBUG - id: 35802
+[14:27:24] {main.py:36} DEBUG - host: speedtest.wa.edgeix.net.au:8080
+[14:27:24] {main.py:36} DEBUG - d: 1.069870420577675
+[14:27:24] {main.py:36} DEBUG - latency: 5.39
+[14:27:24] {main.py:41} DEBUG - {'url': 'http://speedtest.wa.edgeix.net.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'EdgeIX', 'id': '35802', 'host': 'speedtest.wa.edgeix.net.au:8080', 'd': 1.069870420577675, 'latency': 5.39}
+[14:27:24] {main.py:49} INFO - Retrieving data with update_download_speed
+[14:27:34] {main.py:52} INFO - Data retrieved with update_download_speed
+[14:27:34] {main.py:41} DEBUG - 51845123.30089029
+[14:27:34] {main.py:49} INFO - Retrieving data with update_upload_speed
+[14:27:45] {main.py:52} INFO - Data retrieved with update_upload_speed
+[14:27:45] {main.py:41} DEBUG - 11433593.741670612
+[14:27:45] {main.py:180} ERROR - Error occurred while adding headers to db. Error: duplicate column name: download
+
+<<< RUNNING main.py >>>
+[14:43:06] {main.py:50} INFO - Retrieving data with update_best_server
+[14:43:06] {main.py:53} INFO - Data retrieved with update_best_server
+[14:43:06] {main.py:37} DEBUG - url: http://speedtest.wa.edgeix.net.au:8080/speedtest/upload.php
+[14:43:06] {main.py:37} DEBUG - lat: -31.9554
+[14:43:06] {main.py:37} DEBUG - lon: 115.8585
+[14:43:06] {main.py:37} DEBUG - name: Perth
+[14:43:06] {main.py:37} DEBUG - country: Australia
+[14:43:06] {main.py:37} DEBUG - cc: AU
+[14:43:06] {main.py:37} DEBUG - sponsor: EdgeIX
+[14:43:06] {main.py:37} DEBUG - id: 35802
+[14:43:06] {main.py:37} DEBUG - host: speedtest.wa.edgeix.net.au:8080
+[14:43:06] {main.py:37} DEBUG - d: 1.069870420577675
+[14:43:06] {main.py:37} DEBUG - latency: 8.383
+[14:43:06] {main.py:42} DEBUG - {'url': 'http://speedtest.wa.edgeix.net.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'EdgeIX', 'id': '35802', 'host': 'speedtest.wa.edgeix.net.au:8080', 'd': 1.069870420577675, 'latency': 8.383}
+[14:43:06] {main.py:50} INFO - Retrieving data with update_download_speed
+[14:43:16] {main.py:53} INFO - Data retrieved with update_download_speed
+[14:43:16] {main.py:42} DEBUG - 52924587.18966617
+[14:43:16] {main.py:50} INFO - Retrieving data with update_upload_speed
+[14:43:27] {main.py:53} INFO - Data retrieved with update_upload_speed
+[14:43:27] {main.py:42} DEBUG - 10890316.5244943
+
+<<< RUNNING main.py >>>
+[14:43:53] {main.py:50} INFO - Retrieving data with update_best_server
+[14:43:54] {main.py:53} INFO - Data retrieved with update_best_server
+[14:43:54] {main.py:37} DEBUG - url: http://speedtest.wa.ix.asn.au:8080/speedtest/upload.php
+[14:43:54] {main.py:37} DEBUG - lat: -31.9554
+[14:43:54] {main.py:37} DEBUG - lon: 115.8585
+[14:43:54] {main.py:37} DEBUG - name: Perth
+[14:43:54] {main.py:37} DEBUG - country: Australia
+[14:43:54] {main.py:37} DEBUG - cc: AU
+[14:43:54] {main.py:37} DEBUG - sponsor: IX Australia
+[14:43:54] {main.py:37} DEBUG - id: 1931
+[14:43:54] {main.py:37} DEBUG - host: speedtest.wa.ix.asn.au:8080
+[14:43:54] {main.py:37} DEBUG - d: 1.069870420577675
+[14:43:54] {main.py:37} DEBUG - latency: 4.96
+[14:43:54] {main.py:42} DEBUG - {'url': 'http://speedtest.wa.ix.asn.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'IX Australia', 'id': '1931', 'host': 'speedtest.wa.ix.asn.au:8080', 'd': 1.069870420577675, 'latency': 4.96}
+[14:43:54] {main.py:50} INFO - Retrieving data with update_download_speed
+[14:44:04] {main.py:53} INFO - Data retrieved with update_download_speed
+[14:44:04] {main.py:42} DEBUG - 53856262.52885818
+[14:44:04] {main.py:50} INFO - Retrieving data with update_upload_speed
+[14:44:14] {main.py:53} INFO - Data retrieved with update_upload_speed
+[14:44:14] {main.py:42} DEBUG - 12874920.818559255
+
+<<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING main.py >>>
+[14:45:07] {main.py:50} INFO - Retrieving data with update_best_server
+[14:45:08] {main.py:53} INFO - Data retrieved with update_best_server
+[14:45:08] {main.py:37} DEBUG - url: http://speedtest.wa.ix.asn.au:8080/speedtest/upload.php
+[14:45:08] {main.py:37} DEBUG - lat: -31.9554
+[14:45:08] {main.py:37} DEBUG - lon: 115.8585
+[14:45:08] {main.py:37} DEBUG - name: Perth
+[14:45:08] {main.py:37} DEBUG - country: Australia
+[14:45:08] {main.py:37} DEBUG - cc: AU
+[14:45:08] {main.py:37} DEBUG - sponsor: IX Australia
+[14:45:08] {main.py:37} DEBUG - id: 1931
+[14:45:08] {main.py:37} DEBUG - host: speedtest.wa.ix.asn.au:8080
+[14:45:08] {main.py:37} DEBUG - d: 1.069870420577675
+[14:45:08] {main.py:37} DEBUG - latency: 4.785
+[14:45:08] {main.py:42} DEBUG - {'url': 'http://speedtest.wa.ix.asn.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'IX Australia', 'id': '1931', 'host': 'speedtest.wa.ix.asn.au:8080', 'd': 1.069870420577675, 'latency': 4.785}
+[14:45:08] {main.py:50} INFO - Retrieving data with update_download_speed
+[14:45:18] {main.py:53} INFO - Data retrieved with update_download_speed
+[14:45:18] {main.py:42} DEBUG - 53649136.0355798
+[14:45:18] {main.py:50} INFO - Retrieving data with update_upload_speed
+[14:45:28] {main.py:53} INFO - Data retrieved with update_upload_speed
+[14:45:28] {main.py:42} DEBUG - 11510796.16999395
+
+<<< SCRIPT main.py COMPLETE >>>
