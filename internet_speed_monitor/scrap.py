@@ -1,5 +1,9 @@
+# from datetime import datetime
+
 # from internet_speed_monitor.main import DataBase
 
 # db = DataBase()
-# result = db.search_for_id_keys("upload", "NULL")
-# db.delete_entries_with_id(result)
+# list_ = db.sql_to_dict()
+# sql_dict = db.sql_to_dict()
+# download = [datetime.fromisoformat(x["datetime"]) for x in sql_dict]
+# print(download)

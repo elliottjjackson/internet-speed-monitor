@@ -1,10 +1,12 @@
 import logging
 import re
 import sqlite3
+from datetime import datetime
 from pathlib import Path
 from sqlite3 import Error
 from typing import Any, Callable, List, MutableMapping, Optional, Union
 
+import matplotlib.pyplot as plt
 import speedtest as st
 
 # Set up log file configuration for global use in the script.
@@ -58,6 +60,10 @@ def speedtest_connection_log(func: Callable[..., Any]) -> Callable[..., Any]:
         return result
 
     return wrapper
+
+
+def datetime_from_utcstring(utc_string: str) -> datetime:
+    return datetime.strptime(utc_string, "%Y-%m-%d %H:%M:%S.%f")
 
 
 Mbps = float
@@ -161,9 +167,8 @@ class DataBase:
 
     def create_table(self) -> object:
         """Create new db file if not pre-existing."""
-        sql_create_table = (
-            f"CREATE TABLE IF NOT EXISTS {self.db_name} (id INTEGER, PRIMARY KEY(id));"
-        )
+        sql_create_table = f"""CREATE TABLE IF NOT EXISTS {self.db_name}
+        (id INTEGER, datetime TEXT, PRIMARY KEY(id));"""
         try:
             cursor = self.conn.cursor()  # type: ignore
             cursor.execute(sql_create_table)
@@ -179,6 +184,7 @@ class DataBase:
         with self.conn:  # type: ignore
             if self.conn is not None:
                 _header_list = [key for key in results]
+                _header_list.insert(0, "datetime")
                 for header in _header_list:
                     try:
                         cursor = self.conn.cursor()  # type: ignore
@@ -201,6 +207,7 @@ class DataBase:
         _header_list = self.update_headers(results)
         _header_string = ", ".join(_header_list)
         _value_list = [str(value) for value in results.values()]
+        _value_list.insert(0, str(datetime.utcnow()))
         _value_string = ", ".join("?" * len(_value_list))
         _sql_insert = (
             f"INSERT INTO {self.db_name} ({_header_string}) VALUES ({_value_string});"
@@ -217,6 +224,25 @@ class DataBase:
                     raise e
         log.info("Results added to database.")
         # TODO Add result sets to db rows.
+
+    def sql_to_dict(self) -> List[dict[str, str]]:
+        _sql_select = f"SELECT * FROM {self.db_name}"
+        with self.conn:  # type: ignore
+            if self.conn is not None:
+                try:
+                    # Creates a list of dictionaries representing each row.
+                    self.conn.row_factory = lambda c, r: dict(  # type: ignore
+                        zip([col[0] for col in c.description], r)
+                    )
+                    cursor = self.conn.cursor()  # type: ignore
+                    _sql_dict = cursor.execute(_sql_select).fetchall()
+                except Error as e:
+                    log.error(
+                        f"Error occurred while getting timeseries data. Error: {e}"
+                    )
+                    raise e
+        log.info("Getting timeseries data from database.")
+        return _sql_dict
 
     def search_for_id_keys(self, header: str, value: str) -> Optional[List[int]]:
         """Returns database id key when provided a header and value."""
@@ -249,7 +275,6 @@ class DataBase:
                     except Error as e:
                         log.error(f"Error occurred while deleting db line. Error: {e}")
                         raise e
-        pass
 
 
 # TODO Visualiser class
@@ -262,9 +287,13 @@ if __name__ == "__main__":
 
     add_log_header(f"RUNNING {script_filename}")
     speed_test = SpeedTest()
-    server_stats = speed_test.server_stats
-    download = speed_test.download_speed
-    upload = speed_test.upload_speed
     results = speed_test.results
     db = DataBase(results)
+    date: List[datetime] = [
+        datetime.fromisoformat(x["datetime"]) for x in db.sql_to_dict()
+    ]
+    download: List[float] = [float(x["download"]) for x in db.sql_to_dict()]
+    upload: List[float] = [float(x["upload"]) for x in db.sql_to_dict()]
+    ping: List[float] = [float(x["ping"]) for x in db.sql_to_dict()]
+    plt.plot(date, download)
     add_log_header(f"SCRIPT {script_filename} COMPLETE")
