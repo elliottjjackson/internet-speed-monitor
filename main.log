@@ -756,3 +756,602 @@ Error - Unable to connect to servers to test latency.
 [14:45:28] {main.py:42} DEBUG - 11510796.16999395
 
 <<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING main.py >>>
+[10:40:00] {main.py:51} INFO - Retrieving data with update_best_server
+[10:40:01] {main.py:54} INFO - Data retrieved with update_best_server
+[10:40:01] {main.py:38} DEBUG - url: http://per-speedtest-01.nodeone.com.au:8080/speedtest/upload.php
+[10:40:01] {main.py:38} DEBUG - lat: -31.9554
+[10:40:01] {main.py:38} DEBUG - lon: 115.8585
+[10:40:01] {main.py:38} DEBUG - name: Perth
+[10:40:01] {main.py:38} DEBUG - country: Australia
+[10:40:01] {main.py:38} DEBUG - cc: AU
+[10:40:01] {main.py:38} DEBUG - sponsor: NodeOne
+[10:40:01] {main.py:38} DEBUG - id: 31363
+[10:40:01] {main.py:38} DEBUG - host: per-speedtest-01.nodeone.com.au:8080
+[10:40:01] {main.py:38} DEBUG - d: 1.069870420577675
+[10:40:01] {main.py:38} DEBUG - latency: 6.387
+[10:40:01] {main.py:43} DEBUG - {'url': 'http://per-speedtest-01.nodeone.com.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'NodeOne', 'id': '31363', 'host': 'per-speedtest-01.nodeone.com.au:8080', 'd': 1.069870420577675, 'latency': 6.387}
+[10:40:01] {main.py:51} INFO - Retrieving data with update_download_speed
+[10:40:11] {main.py:54} INFO - Data retrieved with update_download_speed
+[10:40:11] {main.py:43} DEBUG - 53848138.52394724
+[10:40:11] {main.py:51} INFO - Retrieving data with update_upload_speed
+[10:40:22] {main.py:54} INFO - Data retrieved with update_upload_speed
+[10:40:22] {main.py:43} DEBUG - 12077452.735125033
+
+<<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING main.py >>>
+[10:40:37] {main.py:51} INFO - Retrieving data with update_best_server
+[10:40:37] {main.py:54} INFO - Data retrieved with update_best_server
+[10:40:37] {main.py:38} DEBUG - url: http://per-speed.overthewire.com.au:8080/speedtest/upload.php
+[10:40:37] {main.py:38} DEBUG - lat: -31.9554
+[10:40:37] {main.py:38} DEBUG - lon: 115.8585
+[10:40:37] {main.py:38} DEBUG - name: Perth
+[10:40:37] {main.py:38} DEBUG - country: Australia
+[10:40:37] {main.py:38} DEBUG - cc: AU
+[10:40:37] {main.py:38} DEBUG - sponsor: Over The Wire
+[10:40:37] {main.py:38} DEBUG - id: 40054
+[10:40:37] {main.py:38} DEBUG - host: per-speed.overthewire.com.au:8080
+[10:40:37] {main.py:38} DEBUG - d: 1.069870420577675
+[10:40:37] {main.py:38} DEBUG - latency: 5.012
+[10:40:37] {main.py:43} DEBUG - {'url': 'http://per-speed.overthewire.com.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Over The Wire', 'id': '40054', 'host': 'per-speed.overthewire.com.au:8080', 'd': 1.069870420577675, 'latency': 5.012}
+[10:40:37] {main.py:51} INFO - Retrieving data with update_download_speed
+[10:40:47] {main.py:54} INFO - Data retrieved with update_download_speed
+[10:40:47] {main.py:43} DEBUG - 53874014.30167369
+[10:40:47] {main.py:51} INFO - Retrieving data with update_upload_speed
+[10:40:58] {main.py:54} INFO - Data retrieved with update_upload_speed
+[10:40:58] {main.py:43} DEBUG - 12482537.7598467
+
+<<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING main.py >>>
+[10:41:12] {main.py:51} INFO - Retrieving data with update_best_server
+[10:41:12] {main.py:54} INFO - Data retrieved with update_best_server
+[10:41:12] {main.py:38} DEBUG - url: http://per-speed.overthewire.com.au:8080/speedtest/upload.php
+[10:41:12] {main.py:38} DEBUG - lat: -31.9554
+[10:41:12] {main.py:38} DEBUG - lon: 115.8585
+[10:41:12] {main.py:38} DEBUG - name: Perth
+[10:41:12] {main.py:38} DEBUG - country: Australia
+[10:41:12] {main.py:38} DEBUG - cc: AU
+[10:41:12] {main.py:38} DEBUG - sponsor: Over The Wire
+[10:41:12] {main.py:38} DEBUG - id: 40054
+[10:41:12] {main.py:38} DEBUG - host: per-speed.overthewire.com.au:8080
+[10:41:12] {main.py:38} DEBUG - d: 1.069870420577675
+[10:41:12] {main.py:38} DEBUG - latency: 5.013
+[10:41:12] {main.py:43} DEBUG - {'url': 'http://per-speed.overthewire.com.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Over The Wire', 'id': '40054', 'host': 'per-speed.overthewire.com.au:8080', 'd': 1.069870420577675, 'latency': 5.013}
+[10:41:12] {main.py:51} INFO - Retrieving data with update_download_speed
+[10:41:22] {main.py:54} INFO - Data retrieved with update_download_speed
+[10:41:22] {main.py:43} DEBUG - 54204760.59423829
+[10:41:22] {main.py:51} INFO - Retrieving data with update_upload_speed
+[10:41:32] {main.py:54} INFO - Data retrieved with update_upload_speed
+[10:41:32] {main.py:43} DEBUG - 12503439.994511057
+[10:41:34] {main.py:208} ERROR - Error occurred while running db result update. Error: Incorrect number of bindings supplied. The current statement uses 30, and there are 0 supplied.
+
+<<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING main.py >>>
+[10:49:44] {main.py:51} INFO - Retrieving data with update_best_server
+[10:49:44] {main.py:54} INFO - Data retrieved with update_best_server
+[10:49:44] {main.py:38} DEBUG - url: http://per-speed.overthewire.com.au:8080/speedtest/upload.php
+[10:49:44] {main.py:38} DEBUG - lat: -31.9554
+[10:49:44] {main.py:38} DEBUG - lon: 115.8585
+[10:49:44] {main.py:38} DEBUG - name: Perth
+[10:49:44] {main.py:38} DEBUG - country: Australia
+[10:49:44] {main.py:38} DEBUG - cc: AU
+[10:49:44] {main.py:38} DEBUG - sponsor: Over The Wire
+[10:49:44] {main.py:38} DEBUG - id: 40054
+[10:49:44] {main.py:38} DEBUG - host: per-speed.overthewire.com.au:8080
+[10:49:44] {main.py:38} DEBUG - d: 1.069870420577675
+[10:49:44] {main.py:38} DEBUG - latency: 5.0
+[10:49:44] {main.py:43} DEBUG - {'url': 'http://per-speed.overthewire.com.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Over The Wire', 'id': '40054', 'host': 'per-speed.overthewire.com.au:8080', 'd': 1.069870420577675, 'latency': 5.0}
+[10:49:44] {main.py:51} INFO - Retrieving data with update_download_speed
+[10:49:54] {main.py:54} INFO - Data retrieved with update_download_speed
+[10:49:54] {main.py:43} DEBUG - 54148019.89418116
+[10:49:54] {main.py:51} INFO - Retrieving data with update_upload_speed
+[10:50:04] {main.py:54} INFO - Data retrieved with update_upload_speed
+[10:50:04] {main.py:43} DEBUG - 11452323.010412917
+[10:50:04] {main.py:208} ERROR - Error occurred while running db result update. Error: Incorrect number of bindings supplied. The current statement uses 30, and there are 0 supplied.
+
+<<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING main.py >>>
+[11:00:15] {main.py:51} INFO - Retrieving data with update_best_server
+[11:00:15] {main.py:54} INFO - Data retrieved with update_best_server
+[11:00:15] {main.py:38} DEBUG - url: http://per-speed.overthewire.com.au:8080/speedtest/upload.php
+[11:00:15] {main.py:38} DEBUG - lat: -31.9554
+[11:00:15] {main.py:38} DEBUG - lon: 115.8585
+[11:00:15] {main.py:38} DEBUG - name: Perth
+[11:00:15] {main.py:38} DEBUG - country: Australia
+[11:00:15] {main.py:38} DEBUG - cc: AU
+[11:00:15] {main.py:38} DEBUG - sponsor: Over The Wire
+[11:00:15] {main.py:38} DEBUG - id: 40054
+[11:00:15] {main.py:38} DEBUG - host: per-speed.overthewire.com.au:8080
+[11:00:15] {main.py:38} DEBUG - d: 1.069870420577675
+[11:00:15] {main.py:38} DEBUG - latency: 5.006
+[11:00:15] {main.py:43} DEBUG - {'url': 'http://per-speed.overthewire.com.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Over The Wire', 'id': '40054', 'host': 'per-speed.overthewire.com.au:8080', 'd': 1.069870420577675, 'latency': 5.006}
+[11:00:15] {main.py:51} INFO - Retrieving data with update_download_speed
+[11:00:26] {main.py:54} INFO - Data retrieved with update_download_speed
+[11:00:26] {main.py:43} DEBUG - 53617154.67002728
+[11:00:26] {main.py:51} INFO - Retrieving data with update_upload_speed
+[11:00:36] {main.py:54} INFO - Data retrieved with update_upload_speed
+[11:00:36] {main.py:43} DEBUG - 11801905.339687632
+[11:00:36] {main.py:208} ERROR - Error occurred while running db result update. Error: Error binding parameter 28 - probably unsupported type.
+
+<<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING main.py >>>
+[11:02:14] {main.py:51} INFO - Retrieving data with update_best_server
+[11:02:14] {main.py:54} INFO - Data retrieved with update_best_server
+[11:02:14] {main.py:38} DEBUG - url: http://per-speed.overthewire.com.au:8080/speedtest/upload.php
+[11:02:14] {main.py:38} DEBUG - lat: -31.9554
+[11:02:14] {main.py:38} DEBUG - lon: 115.8585
+[11:02:14] {main.py:38} DEBUG - name: Perth
+[11:02:14] {main.py:38} DEBUG - country: Australia
+[11:02:14] {main.py:38} DEBUG - cc: AU
+[11:02:14] {main.py:38} DEBUG - sponsor: Over The Wire
+[11:02:14] {main.py:38} DEBUG - id: 40054
+[11:02:14] {main.py:38} DEBUG - host: per-speed.overthewire.com.au:8080
+[11:02:14] {main.py:38} DEBUG - d: 1.069870420577675
+[11:02:14] {main.py:38} DEBUG - latency: 5.028
+[11:02:14] {main.py:43} DEBUG - {'url': 'http://per-speed.overthewire.com.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Over The Wire', 'id': '40054', 'host': 'per-speed.overthewire.com.au:8080', 'd': 1.069870420577675, 'latency': 5.028}
+[11:02:14] {main.py:51} INFO - Retrieving data with update_download_speed
+[11:02:24] {main.py:54} INFO - Data retrieved with update_download_speed
+[11:02:24] {main.py:43} DEBUG - 54054700.56624575
+[11:02:24] {main.py:51} INFO - Retrieving data with update_upload_speed
+[11:02:34] {main.py:54} INFO - Data retrieved with update_upload_speed
+[11:02:34] {main.py:43} DEBUG - 11054606.188368507
+[11:02:36] {main.py:206} ERROR - Error occurred while running db result update. Error: Error binding parameter 28 - probably unsupported type.
+
+<<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING main.py >>>
+[11:07:08] {main.py:51} INFO - Retrieving data with update_best_server
+[11:07:08] {main.py:54} INFO - Data retrieved with update_best_server
+[11:07:08] {main.py:38} DEBUG - url: http://per-speed.overthewire.com.au:8080/speedtest/upload.php
+[11:07:08] {main.py:38} DEBUG - lat: -31.9554
+[11:07:08] {main.py:38} DEBUG - lon: 115.8585
+[11:07:08] {main.py:38} DEBUG - name: Perth
+[11:07:08] {main.py:38} DEBUG - country: Australia
+[11:07:08] {main.py:38} DEBUG - cc: AU
+[11:07:08] {main.py:38} DEBUG - sponsor: Over The Wire
+[11:07:08] {main.py:38} DEBUG - id: 40054
+[11:07:08] {main.py:38} DEBUG - host: per-speed.overthewire.com.au:8080
+[11:07:08] {main.py:38} DEBUG - d: 1.069870420577675
+[11:07:08] {main.py:38} DEBUG - latency: 5.204
+[11:07:08] {main.py:43} DEBUG - {'url': 'http://per-speed.overthewire.com.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Over The Wire', 'id': '40054', 'host': 'per-speed.overthewire.com.au:8080', 'd': 1.069870420577675, 'latency': 5.204}
+[11:07:08] {main.py:51} INFO - Retrieving data with update_download_speed
+[11:07:18] {main.py:54} INFO - Data retrieved with update_download_speed
+[11:07:18] {main.py:43} DEBUG - 53954650.17163473
+[11:07:18] {main.py:51} INFO - Retrieving data with update_upload_speed
+[11:07:29] {main.py:54} INFO - Data retrieved with update_upload_speed
+[11:07:29] {main.py:43} DEBUG - 11125735.685770718
+
+<<< RUNNING main.py >>>
+[11:07:49] {main.py:51} INFO - Retrieving data with update_best_server
+[11:07:50] {main.py:54} INFO - Data retrieved with update_best_server
+[11:07:50] {main.py:38} DEBUG - url: http://per-speedtest-01.nodeone.com.au:8080/speedtest/upload.php
+[11:07:50] {main.py:38} DEBUG - lat: -31.9554
+[11:07:50] {main.py:38} DEBUG - lon: 115.8585
+[11:07:50] {main.py:38} DEBUG - name: Perth
+[11:07:50] {main.py:38} DEBUG - country: Australia
+[11:07:50] {main.py:38} DEBUG - cc: AU
+[11:07:50] {main.py:38} DEBUG - sponsor: NodeOne
+[11:07:50] {main.py:38} DEBUG - id: 31363
+[11:07:50] {main.py:38} DEBUG - host: per-speedtest-01.nodeone.com.au:8080
+[11:07:50] {main.py:38} DEBUG - d: 1.069870420577675
+[11:07:50] {main.py:38} DEBUG - latency: 5.525
+[11:07:50] {main.py:43} DEBUG - {'url': 'http://per-speedtest-01.nodeone.com.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'NodeOne', 'id': '31363', 'host': 'per-speedtest-01.nodeone.com.au:8080', 'd': 1.069870420577675, 'latency': 5.525}
+[11:07:50] {main.py:51} INFO - Retrieving data with update_download_speed
+[11:08:00] {main.py:54} INFO - Data retrieved with update_download_speed
+[11:08:00] {main.py:43} DEBUG - 50888662.85866568
+[11:08:00] {main.py:51} INFO - Retrieving data with update_upload_speed
+[11:08:10] {main.py:54} INFO - Data retrieved with update_upload_speed
+[11:08:10] {main.py:43} DEBUG - 13067865.467448097
+
+<<< RUNNING main.py >>>
+[11:08:40] {main.py:51} INFO - Retrieving data with update_best_server
+[11:08:40] {main.py:54} INFO - Data retrieved with update_best_server
+[11:08:40] {main.py:38} DEBUG - url: http://per-speed.overthewire.com.au:8080/speedtest/upload.php
+[11:08:40] {main.py:38} DEBUG - lat: -31.9554
+[11:08:40] {main.py:38} DEBUG - lon: 115.8585
+[11:08:40] {main.py:38} DEBUG - name: Perth
+[11:08:40] {main.py:38} DEBUG - country: Australia
+[11:08:40] {main.py:38} DEBUG - cc: AU
+[11:08:40] {main.py:38} DEBUG - sponsor: Over The Wire
+[11:08:40] {main.py:38} DEBUG - id: 40054
+[11:08:40] {main.py:38} DEBUG - host: per-speed.overthewire.com.au:8080
+[11:08:40] {main.py:38} DEBUG - d: 1.069870420577675
+[11:08:40] {main.py:38} DEBUG - latency: 5.016
+[11:08:40] {main.py:43} DEBUG - {'url': 'http://per-speed.overthewire.com.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Over The Wire', 'id': '40054', 'host': 'per-speed.overthewire.com.au:8080', 'd': 1.069870420577675, 'latency': 5.016}
+[11:08:40] {main.py:51} INFO - Retrieving data with update_download_speed
+[11:08:50] {main.py:54} INFO - Data retrieved with update_download_speed
+[11:08:50] {main.py:43} DEBUG - 53808724.79366507
+[11:08:50] {main.py:51} INFO - Retrieving data with update_upload_speed
+[11:09:00] {main.py:54} INFO - Data retrieved with update_upload_speed
+[11:09:00] {main.py:43} DEBUG - 11625278.25016765
+
+<<< RUNNING main.py >>>
+[11:09:11] {main.py:51} INFO - Retrieving data with update_best_server
+[11:09:11] {main.py:54} INFO - Data retrieved with update_best_server
+[11:09:11] {main.py:38} DEBUG - url: http://per-speed.overthewire.com.au:8080/speedtest/upload.php
+[11:09:11] {main.py:38} DEBUG - lat: -31.9554
+[11:09:11] {main.py:38} DEBUG - lon: 115.8585
+[11:09:11] {main.py:38} DEBUG - name: Perth
+[11:09:11] {main.py:38} DEBUG - country: Australia
+[11:09:11] {main.py:38} DEBUG - cc: AU
+[11:09:11] {main.py:38} DEBUG - sponsor: Over The Wire
+[11:09:11] {main.py:38} DEBUG - id: 40054
+[11:09:11] {main.py:38} DEBUG - host: per-speed.overthewire.com.au:8080
+[11:09:11] {main.py:38} DEBUG - d: 1.069870420577675
+[11:09:11] {main.py:38} DEBUG - latency: 5.052
+[11:09:11] {main.py:43} DEBUG - {'url': 'http://per-speed.overthewire.com.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Over The Wire', 'id': '40054', 'host': 'per-speed.overthewire.com.au:8080', 'd': 1.069870420577675, 'latency': 5.052}
+[11:09:11] {main.py:51} INFO - Retrieving data with update_download_speed
+[11:09:21] {main.py:54} INFO - Data retrieved with update_download_speed
+[11:09:21] {main.py:43} DEBUG - 54091737.838767424
+[11:09:21] {main.py:51} INFO - Retrieving data with update_upload_speed
+[11:09:32] {main.py:54} INFO - Data retrieved with update_upload_speed
+[11:09:32] {main.py:43} DEBUG - 11293165.631399916
+
+<<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING main.py >>>
+[11:10:49] {main.py:51} INFO - Retrieving data with update_best_server
+[11:10:50] {main.py:54} INFO - Data retrieved with update_best_server
+[11:10:50] {main.py:38} DEBUG - url: http://per-speed.overthewire.com.au:8080/speedtest/upload.php
+[11:10:50] {main.py:38} DEBUG - lat: -31.9554
+[11:10:50] {main.py:38} DEBUG - lon: 115.8585
+[11:10:50] {main.py:38} DEBUG - name: Perth
+[11:10:50] {main.py:38} DEBUG - country: Australia
+[11:10:50] {main.py:38} DEBUG - cc: AU
+[11:10:50] {main.py:38} DEBUG - sponsor: Over The Wire
+[11:10:50] {main.py:38} DEBUG - id: 40054
+[11:10:50] {main.py:38} DEBUG - host: per-speed.overthewire.com.au:8080
+[11:10:50] {main.py:38} DEBUG - d: 1.069870420577675
+[11:10:50] {main.py:38} DEBUG - latency: 4.985
+[11:10:50] {main.py:43} DEBUG - {'url': 'http://per-speed.overthewire.com.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Over The Wire', 'id': '40054', 'host': 'per-speed.overthewire.com.au:8080', 'd': 1.069870420577675, 'latency': 4.985}
+[11:10:50] {main.py:51} INFO - Retrieving data with update_download_speed
+[11:11:00] {main.py:54} INFO - Data retrieved with update_download_speed
+[11:11:00] {main.py:43} DEBUG - 53695439.77546767
+[11:11:00] {main.py:51} INFO - Retrieving data with update_upload_speed
+[11:11:10] {main.py:54} INFO - Data retrieved with update_upload_speed
+[11:11:10] {main.py:43} DEBUG - 12419349.929315016
+
+<<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING main.py >>>
+[11:13:37] {main.py:51} INFO - Retrieving data with update_best_server
+[11:13:37] {main.py:54} INFO - Data retrieved with update_best_server
+[11:13:37] {main.py:38} DEBUG - url: http://per1.speedtest.telstra.net:8080/speedtest/upload.php
+[11:13:37] {main.py:38} DEBUG - lat: -31.9554
+[11:13:37] {main.py:38} DEBUG - lon: 115.8585
+[11:13:37] {main.py:38} DEBUG - name: Perth
+[11:13:37] {main.py:38} DEBUG - country: Australia
+[11:13:37] {main.py:38} DEBUG - cc: AU
+[11:13:37] {main.py:38} DEBUG - sponsor: Telstra
+[11:13:37] {main.py:38} DEBUG - id: 12494
+[11:13:37] {main.py:38} DEBUG - host: per1.speedtest.telstra.net:8080
+[11:13:37] {main.py:38} DEBUG - d: 1.069870420577675
+[11:13:37] {main.py:38} DEBUG - latency: 5.362
+[11:13:37] {main.py:43} DEBUG - {'url': 'http://per1.speedtest.telstra.net:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Telstra', 'id': '12494', 'host': 'per1.speedtest.telstra.net:8080', 'd': 1.069870420577675, 'latency': 5.362}
+[11:13:37] {main.py:51} INFO - Retrieving data with update_download_speed
+[11:13:47] {main.py:54} INFO - Data retrieved with update_download_speed
+[11:13:47] {main.py:43} DEBUG - 53837423.938049875
+[11:13:47] {main.py:51} INFO - Retrieving data with update_upload_speed
+[11:13:57] {main.py:54} INFO - Data retrieved with update_upload_speed
+[11:13:57] {main.py:43} DEBUG - 10732883.320837755
+
+<<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING main.py >>>
+[12:31:44] {main.py:51} INFO - Retrieving data with update_best_server
+[12:31:45] {main.py:54} INFO - Data retrieved with update_best_server
+[12:31:45] {main.py:38} DEBUG - url: http://wa.speedtest.exetel.com.au:8080/speedtest/upload.php
+[12:31:45] {main.py:38} DEBUG - lat: -31.9554
+[12:31:45] {main.py:38} DEBUG - lon: 115.8585
+[12:31:45] {main.py:38} DEBUG - name: Perth
+[12:31:45] {main.py:38} DEBUG - country: Australia
+[12:31:45] {main.py:38} DEBUG - cc: AU
+[12:31:45] {main.py:38} DEBUG - sponsor: Exetel
+[12:31:45] {main.py:38} DEBUG - id: 13278
+[12:31:45] {main.py:38} DEBUG - host: wa.speedtest.exetel.com.au:8080
+[12:31:45] {main.py:38} DEBUG - d: 1.069870420577675
+[12:31:45] {main.py:38} DEBUG - latency: 7.479
+[12:31:45] {main.py:43} DEBUG - {'url': 'http://wa.speedtest.exetel.com.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Exetel', 'id': '13278', 'host': 'wa.speedtest.exetel.com.au:8080', 'd': 1.069870420577675, 'latency': 7.479}
+[12:31:45] {main.py:51} INFO - Retrieving data with update_download_speed
+[12:31:55] {main.py:54} INFO - Data retrieved with update_download_speed
+[12:31:55] {main.py:43} DEBUG - 54.07618831821352
+[12:31:55] {main.py:51} INFO - Retrieving data with update_upload_speed
+[12:32:05] {main.py:54} INFO - Data retrieved with update_upload_speed
+[12:32:05] {main.py:43} DEBUG - 12.986517174682552
+[12:32:05] {main.py:228} ERROR - Error occurred while running db search. Error: Incorrect number of bindings supplied. The current statement uses 1, and there are 2 supplied.
+[12:34:10] {main.py:228} ERROR - Error occurred while running db search. Error: Incorrect number of bindings supplied. The current statement uses 1, and there are 2 supplied.
+[12:34:54] {main.py:228} ERROR - Error occurred while running db search. Error: Incorrect number of bindings supplied. The current statement uses 1, and there are 2 supplied.
+[12:36:02] {main.py:228} ERROR - Error occurred while running db search. Error: Incorrect number of bindings supplied. The current statement uses 1, and there are 2 supplied.
+[12:36:26] {main.py:228} ERROR - Error occurred while running db search. Error: Incorrect number of bindings supplied. The current statement uses 1, and there are 14 supplied.
+[12:36:56] {main.py:228} ERROR - Error occurred while running db search. Error: Incorrect number of bindings supplied. The current statement uses 1, and there are 14 supplied.
+[12:54:32] {main.py:230} ERROR - Error occurred while running db search. Error: no such column: upload
+[12:55:48] {main.py:230} ERROR - Error occurred while running db search. Error: no such column: upload
+
+<<< RUNNING main.py >>>
+[12:55:56] {main.py:51} INFO - Retrieving data with update_best_server
+[12:55:57] {main.py:54} INFO - Data retrieved with update_best_server
+[12:55:57] {main.py:38} DEBUG - url: http://speedtest-ndp1.tasmanet.com.au:8080/speedtest/upload.php
+[12:55:57] {main.py:38} DEBUG - lat: -31.9523
+[12:55:57] {main.py:38} DEBUG - lon: 115.8613
+[12:55:57] {main.py:38} DEBUG - name: Perth
+[12:55:57] {main.py:38} DEBUG - country: Australia
+[12:55:57] {main.py:38} DEBUG - cc: AU
+[12:55:57] {main.py:38} DEBUG - sponsor: TasmaNet Pty Ltd
+[12:55:57] {main.py:38} DEBUG - id: 42957
+[12:55:57] {main.py:38} DEBUG - host: speedtest-ndp1.tasmanet.com.au:8080
+[12:55:57] {main.py:38} DEBUG - d: 0.6371154547457647
+[12:55:57] {main.py:38} DEBUG - latency: 5.187
+[12:55:57] {main.py:43} DEBUG - {'url': 'http://speedtest-ndp1.tasmanet.com.au:8080/speedtest/upload.php', 'lat': '-31.9523', 'lon': '115.8613', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'TasmaNet Pty Ltd', 'id': '42957', 'host': 'speedtest-ndp1.tasmanet.com.au:8080', 'd': 0.6371154547457647, 'latency': 5.187}
+[12:55:57] {main.py:51} INFO - Retrieving data with update_download_speed
+[12:56:07] {main.py:54} INFO - Data retrieved with update_download_speed
+[12:56:07] {main.py:43} DEBUG - 53.99809988380798
+[12:56:07] {main.py:51} INFO - Retrieving data with update_upload_speed
+[12:56:17] {main.py:54} INFO - Data retrieved with update_upload_speed
+[12:56:17] {main.py:43} DEBUG - 15.301660009225541
+[12:56:20] {main.py:214} INFO - Results added to database.
+
+<<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING main.py >>>
+[12:58:15] {main.py:51} INFO - Retrieving data with update_best_server
+[12:58:16] {main.py:54} INFO - Data retrieved with update_best_server
+[12:58:16] {main.py:38} DEBUG - url: http://speedtest-ndp1.tasmanet.com.au:8080/speedtest/upload.php
+[12:58:16] {main.py:38} DEBUG - lat: -31.9523
+[12:58:16] {main.py:38} DEBUG - lon: 115.8613
+[12:58:16] {main.py:38} DEBUG - name: Perth
+[12:58:16] {main.py:38} DEBUG - country: Australia
+[12:58:16] {main.py:38} DEBUG - cc: AU
+[12:58:16] {main.py:38} DEBUG - sponsor: TasmaNet Pty Ltd
+[12:58:16] {main.py:38} DEBUG - id: 42957
+[12:58:16] {main.py:38} DEBUG - host: speedtest-ndp1.tasmanet.com.au:8080
+[12:58:16] {main.py:38} DEBUG - d: 0.6371154547457647
+[12:58:16] {main.py:38} DEBUG - latency: 4.924
+[12:58:16] {main.py:43} DEBUG - {'url': 'http://speedtest-ndp1.tasmanet.com.au:8080/speedtest/upload.php', 'lat': '-31.9523', 'lon': '115.8613', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'TasmaNet Pty Ltd', 'id': '42957', 'host': 'speedtest-ndp1.tasmanet.com.au:8080', 'd': 0.6371154547457647, 'latency': 4.924}
+[12:58:16] {main.py:51} INFO - Retrieving data with update_download_speed
+[12:58:26] {main.py:54} INFO - Data retrieved with update_download_speed
+[12:58:26] {main.py:43} DEBUG - 53.770582890848345
+[12:58:26] {main.py:51} INFO - Retrieving data with update_upload_speed
+[12:58:36] {main.py:54} INFO - Data retrieved with update_upload_speed
+[12:58:36] {main.py:43} DEBUG - 14.563552967629661
+
+<<< RUNNING main.py >>>
+[12:59:48] {main.py:51} INFO - Retrieving data with update_best_server
+[12:59:48] {main.py:54} INFO - Data retrieved with update_best_server
+[12:59:48] {main.py:38} DEBUG - url: http://speedtest-ndp1.tasmanet.com.au:8080/speedtest/upload.php
+[12:59:48] {main.py:38} DEBUG - lat: -31.9523
+[12:59:48] {main.py:38} DEBUG - lon: 115.8613
+[12:59:48] {main.py:38} DEBUG - name: Perth
+[12:59:48] {main.py:38} DEBUG - country: Australia
+[12:59:48] {main.py:38} DEBUG - cc: AU
+[12:59:48] {main.py:38} DEBUG - sponsor: TasmaNet Pty Ltd
+[12:59:48] {main.py:38} DEBUG - id: 42957
+[12:59:48] {main.py:38} DEBUG - host: speedtest-ndp1.tasmanet.com.au:8080
+[12:59:48] {main.py:38} DEBUG - d: 0.6371154547457647
+[12:59:48] {main.py:38} DEBUG - latency: 4.899
+[12:59:48] {main.py:43} DEBUG - {'url': 'http://speedtest-ndp1.tasmanet.com.au:8080/speedtest/upload.php', 'lat': '-31.9523', 'lon': '115.8613', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'TasmaNet Pty Ltd', 'id': '42957', 'host': 'speedtest-ndp1.tasmanet.com.au:8080', 'd': 0.6371154547457647, 'latency': 4.899}
+[12:59:48] {main.py:51} INFO - Retrieving data with update_download_speed
+[12:59:58] {main.py:54} INFO - Data retrieved with update_download_speed
+[12:59:58] {main.py:43} DEBUG - 54.20390198463996
+[12:59:58] {main.py:51} INFO - Retrieving data with update_upload_speed
+[13:00:09] {main.py:54} INFO - Data retrieved with update_upload_speed
+[13:00:09] {main.py:43} DEBUG - 14.915949080458098
+
+<<< RUNNING main.py >>>
+[13:00:19] {main.py:51} INFO - Retrieving data with update_best_server
+[13:00:20] {main.py:54} INFO - Data retrieved with update_best_server
+[13:00:20] {main.py:38} DEBUG - url: http://speedtest-p1.interphone.com.au:8080/speedtest/upload.php
+[13:00:20] {main.py:38} DEBUG - lat: -31.9554
+[13:00:20] {main.py:38} DEBUG - lon: 115.8585
+[13:00:20] {main.py:38} DEBUG - name: Perth
+[13:00:20] {main.py:38} DEBUG - country: Australia
+[13:00:20] {main.py:38} DEBUG - cc: AU
+[13:00:20] {main.py:38} DEBUG - sponsor: Interphone Pty Ltd
+[13:00:20] {main.py:38} DEBUG - id: 45707
+[13:00:20] {main.py:38} DEBUG - host: speedtest-p1.interphone.com.au:8080
+[13:00:20] {main.py:38} DEBUG - d: 1.069870420577675
+[13:00:20] {main.py:38} DEBUG - latency: 5.118
+[13:00:20] {main.py:43} DEBUG - {'url': 'http://speedtest-p1.interphone.com.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Interphone Pty Ltd', 'id': '45707', 'host': 'speedtest-p1.interphone.com.au:8080', 'd': 1.069870420577675, 'latency': 5.118}
+[13:00:20] {main.py:51} INFO - Retrieving data with update_download_speed
+[13:00:30] {main.py:54} INFO - Data retrieved with update_download_speed
+[13:00:30] {main.py:43} DEBUG - 52.448416191915896
+[13:00:30] {main.py:51} INFO - Retrieving data with update_upload_speed
+[13:00:41] {main.py:54} INFO - Data retrieved with update_upload_speed
+[13:00:41] {main.py:43} DEBUG - 14.255341729736987
+
+<<< RUNNING main.py >>>
+[13:02:44] {main.py:51} INFO - Retrieving data with update_best_server
+[13:02:45] {main.py:54} INFO - Data retrieved with update_best_server
+[13:02:45] {main.py:38} DEBUG - url: http://speedtest-ndp1.tasmanet.com.au:8080/speedtest/upload.php
+[13:02:45] {main.py:38} DEBUG - lat: -31.9523
+[13:02:45] {main.py:38} DEBUG - lon: 115.8613
+[13:02:45] {main.py:38} DEBUG - name: Perth
+[13:02:45] {main.py:38} DEBUG - country: Australia
+[13:02:45] {main.py:38} DEBUG - cc: AU
+[13:02:45] {main.py:38} DEBUG - sponsor: TasmaNet Pty Ltd
+[13:02:45] {main.py:38} DEBUG - id: 42957
+[13:02:45] {main.py:38} DEBUG - host: speedtest-ndp1.tasmanet.com.au:8080
+[13:02:45] {main.py:38} DEBUG - d: 0.6371154547457647
+[13:02:45] {main.py:38} DEBUG - latency: 5.41
+[13:02:45] {main.py:43} DEBUG - {'url': 'http://speedtest-ndp1.tasmanet.com.au:8080/speedtest/upload.php', 'lat': '-31.9523', 'lon': '115.8613', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'TasmaNet Pty Ltd', 'id': '42957', 'host': 'speedtest-ndp1.tasmanet.com.au:8080', 'd': 0.6371154547457647, 'latency': 5.41}
+[13:02:45] {main.py:51} INFO - Retrieving data with update_download_speed
+[13:02:56] {main.py:54} INFO - Data retrieved with update_download_speed
+[13:02:56] {main.py:43} DEBUG - 53.888643072618365
+[13:02:56] {main.py:51} INFO - Retrieving data with update_upload_speed
+[13:03:06] {main.py:54} INFO - Data retrieved with update_upload_speed
+[13:03:06] {main.py:43} DEBUG - 15.15281472404059
+
+<<< RUNNING main.py >>>
+[13:03:18] {main.py:51} INFO - Retrieving data with update_best_server
+[13:03:20] {main.py:54} INFO - Data retrieved with update_best_server
+[13:03:20] {main.py:38} DEBUG - url: http://speedtest-p1.interphone.com.au:8080/speedtest/upload.php
+[13:03:20] {main.py:38} DEBUG - lat: -31.9554
+[13:03:20] {main.py:38} DEBUG - lon: 115.8585
+[13:03:20] {main.py:38} DEBUG - name: Perth
+[13:03:20] {main.py:38} DEBUG - country: Australia
+[13:03:20] {main.py:38} DEBUG - cc: AU
+[13:03:20] {main.py:38} DEBUG - sponsor: Interphone Pty Ltd
+[13:03:20] {main.py:38} DEBUG - id: 45707
+[13:03:20] {main.py:38} DEBUG - host: speedtest-p1.interphone.com.au:8080
+[13:03:20] {main.py:38} DEBUG - d: 1.069870420577675
+[13:03:20] {main.py:38} DEBUG - latency: 5.105
+[13:03:20] {main.py:43} DEBUG - {'url': 'http://speedtest-p1.interphone.com.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Interphone Pty Ltd', 'id': '45707', 'host': 'speedtest-p1.interphone.com.au:8080', 'd': 1.069870420577675, 'latency': 5.105}
+[13:03:20] {main.py:51} INFO - Retrieving data with update_download_speed
+[13:03:30] {main.py:54} INFO - Data retrieved with update_download_speed
+[13:03:30] {main.py:43} DEBUG - 50.05658589809934
+[13:03:30] {main.py:51} INFO - Retrieving data with update_upload_speed
+[13:03:41] {main.py:54} INFO - Data retrieved with update_upload_speed
+[13:03:41] {main.py:43} DEBUG - 15.534160777933254
+
+<<< RUNNING main.py >>>
+[13:06:16] {main.py:51} INFO - Retrieving data with update_best_server
+[13:06:17] {main.py:54} INFO - Data retrieved with update_best_server
+[13:06:17] {main.py:38} DEBUG - url: http://speedtest-ndp1.tasmanet.com.au:8080/speedtest/upload.php
+[13:06:17] {main.py:38} DEBUG - lat: -31.9523
+[13:06:17] {main.py:38} DEBUG - lon: 115.8613
+[13:06:17] {main.py:38} DEBUG - name: Perth
+[13:06:17] {main.py:38} DEBUG - country: Australia
+[13:06:17] {main.py:38} DEBUG - cc: AU
+[13:06:17] {main.py:38} DEBUG - sponsor: TasmaNet Pty Ltd
+[13:06:17] {main.py:38} DEBUG - id: 42957
+[13:06:17] {main.py:38} DEBUG - host: speedtest-ndp1.tasmanet.com.au:8080
+[13:06:17] {main.py:38} DEBUG - d: 0.6371154547457647
+[13:06:17] {main.py:38} DEBUG - latency: 5.052
+[13:06:17] {main.py:43} DEBUG - {'url': 'http://speedtest-ndp1.tasmanet.com.au:8080/speedtest/upload.php', 'lat': '-31.9523', 'lon': '115.8613', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'TasmaNet Pty Ltd', 'id': '42957', 'host': 'speedtest-ndp1.tasmanet.com.au:8080', 'd': 0.6371154547457647, 'latency': 5.052}
+[13:06:17] {main.py:51} INFO - Retrieving data with update_download_speed
+[13:06:27] {main.py:54} INFO - Data retrieved with update_download_speed
+[13:06:27] {main.py:43} DEBUG - 53.88792782055107
+[13:06:27] {main.py:51} INFO - Retrieving data with update_upload_speed
+[13:06:37] {main.py:54} INFO - Data retrieved with update_upload_speed
+[13:06:37] {main.py:43} DEBUG - 15.762398068236019
+
+<<< RUNNING main.py >>>
+[13:07:16] {main.py:51} INFO - Retrieving data with update_best_server
+[13:07:16] {main.py:54} INFO - Data retrieved with update_best_server
+[13:07:16] {main.py:38} DEBUG - url: http://speedtest-ndp1.tasmanet.com.au:8080/speedtest/upload.php
+[13:07:16] {main.py:38} DEBUG - lat: -31.9523
+[13:07:16] {main.py:38} DEBUG - lon: 115.8613
+[13:07:16] {main.py:38} DEBUG - name: Perth
+[13:07:16] {main.py:38} DEBUG - country: Australia
+[13:07:16] {main.py:38} DEBUG - cc: AU
+[13:07:16] {main.py:38} DEBUG - sponsor: TasmaNet Pty Ltd
+[13:07:16] {main.py:38} DEBUG - id: 42957
+[13:07:16] {main.py:38} DEBUG - host: speedtest-ndp1.tasmanet.com.au:8080
+[13:07:16] {main.py:38} DEBUG - d: 0.6371154547457647
+[13:07:16] {main.py:38} DEBUG - latency: 5.0
+[13:07:16] {main.py:43} DEBUG - {'url': 'http://speedtest-ndp1.tasmanet.com.au:8080/speedtest/upload.php', 'lat': '-31.9523', 'lon': '115.8613', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'TasmaNet Pty Ltd', 'id': '42957', 'host': 'speedtest-ndp1.tasmanet.com.au:8080', 'd': 0.6371154547457647, 'latency': 5.0}
+[13:07:16] {main.py:51} INFO - Retrieving data with update_download_speed
+[13:07:27] {main.py:54} INFO - Data retrieved with update_download_speed
+[13:07:27] {main.py:43} DEBUG - 53.96640973315074
+[13:07:27] {main.py:51} INFO - Retrieving data with update_upload_speed
+[13:07:40] {main.py:54} INFO - Data retrieved with update_upload_speed
+[13:07:40] {main.py:43} DEBUG - 12.236984763801434
+[13:07:40] {main.py:219} INFO - Results added to database.
+
+<<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING main.py >>>
+[13:08:51] {main.py:51} INFO - Retrieving data with update_best_server
+[13:08:52] {main.py:54} INFO - Data retrieved with update_best_server
+[13:08:52] {main.py:38} DEBUG - url: http://wa.speedtest.exetel.com.au:8080/speedtest/upload.php
+[13:08:52] {main.py:38} DEBUG - lat: -31.9554
+[13:08:52] {main.py:38} DEBUG - lon: 115.8585
+[13:08:52] {main.py:38} DEBUG - name: Perth
+[13:08:52] {main.py:38} DEBUG - country: Australia
+[13:08:52] {main.py:38} DEBUG - cc: AU
+[13:08:52] {main.py:38} DEBUG - sponsor: Exetel
+[13:08:52] {main.py:38} DEBUG - id: 13278
+[13:08:52] {main.py:38} DEBUG - host: wa.speedtest.exetel.com.au:8080
+[13:08:52] {main.py:38} DEBUG - d: 1.069870420577675
+[13:08:52] {main.py:38} DEBUG - latency: 6.518
+[13:08:52] {main.py:43} DEBUG - {'url': 'http://wa.speedtest.exetel.com.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Exetel', 'id': '13278', 'host': 'wa.speedtest.exetel.com.au:8080', 'd': 1.069870420577675, 'latency': 6.518}
+[13:08:52] {main.py:51} INFO - Retrieving data with update_download_speed
+[13:09:03] {main.py:54} INFO - Data retrieved with update_download_speed
+[13:09:03] {main.py:43} DEBUG - 51.461206970566145
+[13:09:03] {main.py:51} INFO - Retrieving data with update_upload_speed
+[13:09:13] {main.py:54} INFO - Data retrieved with update_upload_speed
+[13:09:13] {main.py:43} DEBUG - 11.220223941382212
+[13:09:13] {main.py:219} INFO - Results added to database.
+
+<<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING main.py >>>
+[13:14:37] {main.py:50} INFO - Retrieving data with update_best_server
+[13:14:38] {main.py:53} INFO - Data retrieved with update_best_server
+[13:14:38] {main.py:37} DEBUG - url: http://speedtest-ndp1.tasmanet.com.au:8080/speedtest/upload.php
+[13:14:38] {main.py:37} DEBUG - lat: -31.9523
+[13:14:38] {main.py:37} DEBUG - lon: 115.8613
+[13:14:38] {main.py:37} DEBUG - name: Perth
+[13:14:38] {main.py:37} DEBUG - country: Australia
+[13:14:38] {main.py:37} DEBUG - cc: AU
+[13:14:38] {main.py:37} DEBUG - sponsor: TasmaNet Pty Ltd
+[13:14:38] {main.py:37} DEBUG - id: 42957
+[13:14:38] {main.py:37} DEBUG - host: speedtest-ndp1.tasmanet.com.au:8080
+[13:14:38] {main.py:37} DEBUG - d: 0.6371154547457647
+[13:14:38] {main.py:37} DEBUG - latency: 5.119
+[13:14:38] {main.py:42} DEBUG - {'url': 'http://speedtest-ndp1.tasmanet.com.au:8080/speedtest/upload.php', 'lat': '-31.9523', 'lon': '115.8613', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'TasmaNet Pty Ltd', 'id': '42957', 'host': 'speedtest-ndp1.tasmanet.com.au:8080', 'd': 0.6371154547457647, 'latency': 5.119}
+[13:14:38] {main.py:50} INFO - Retrieving data with update_download_speed
+
+<<< RUNNING main.py >>>
+[13:17:41] {main.py:50} INFO - Retrieving data with update_best_server
+[13:17:42] {main.py:53} INFO - Data retrieved with update_best_server
+[13:17:42] {main.py:37} DEBUG - url: http://speedtest-ndp1.tasmanet.com.au:8080/speedtest/upload.php
+[13:17:42] {main.py:37} DEBUG - lat: -31.9523
+[13:17:42] {main.py:37} DEBUG - lon: 115.8613
+[13:17:42] {main.py:37} DEBUG - name: Perth
+[13:17:42] {main.py:37} DEBUG - country: Australia
+[13:17:42] {main.py:37} DEBUG - cc: AU
+[13:17:42] {main.py:37} DEBUG - sponsor: TasmaNet Pty Ltd
+[13:17:42] {main.py:37} DEBUG - id: 42957
+[13:17:42] {main.py:37} DEBUG - host: speedtest-ndp1.tasmanet.com.au:8080
+[13:17:42] {main.py:37} DEBUG - d: 0.6371154547457647
+[13:17:42] {main.py:37} DEBUG - latency: 4.919
+[13:17:42] {main.py:42} DEBUG - {'url': 'http://speedtest-ndp1.tasmanet.com.au:8080/speedtest/upload.php', 'lat': '-31.9523', 'lon': '115.8613', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'TasmaNet Pty Ltd', 'id': '42957', 'host': 'speedtest-ndp1.tasmanet.com.au:8080', 'd': 0.6371154547457647, 'latency': 4.919}
+[13:17:42] {main.py:50} INFO - Retrieving data with update_download_speed
+[13:17:52] {main.py:53} INFO - Data retrieved with update_download_speed
+[13:17:52] {main.py:42} DEBUG - 53.59176194714408
+[13:17:52] {main.py:50} INFO - Retrieving data with update_upload_speed
+[13:18:03] {main.py:53} INFO - Data retrieved with update_upload_speed
+[13:18:03] {main.py:42} DEBUG - 15.208397873217052
+[13:18:03] {main.py:218} INFO - Results added to database.
+
+<<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING main.py >>>
+[13:18:03] {main.py:50} INFO - Retrieving data with update_best_server
+[13:18:04] {main.py:53} INFO - Data retrieved with update_best_server
+[13:18:04] {main.py:37} DEBUG - url: http://speedtest-p1.interphone.com.au:8080/speedtest/upload.php
+[13:18:04] {main.py:37} DEBUG - lat: -31.9554
+[13:18:04] {main.py:37} DEBUG - lon: 115.8585
+[13:18:04] {main.py:37} DEBUG - name: Perth
+[13:18:04] {main.py:37} DEBUG - country: Australia
+[13:18:04] {main.py:37} DEBUG - cc: AU
+[13:18:04] {main.py:37} DEBUG - sponsor: Interphone Pty Ltd
+[13:18:04] {main.py:37} DEBUG - id: 45707
+[13:18:04] {main.py:37} DEBUG - host: speedtest-p1.interphone.com.au:8080
+[13:18:04] {main.py:37} DEBUG - d: 1.069870420577675
+[13:18:04] {main.py:37} DEBUG - latency: 4.98
+[13:18:04] {main.py:42} DEBUG - {'url': 'http://speedtest-p1.interphone.com.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Interphone Pty Ltd', 'id': '45707', 'host': 'speedtest-p1.interphone.com.au:8080', 'd': 1.069870420577675, 'latency': 4.98}
+[13:18:04] {main.py:50} INFO - Retrieving data with update_download_speed
+
+<<< RUNNING main.py >>>
+[13:18:09] {main.py:50} INFO - Retrieving data with update_best_server
+[13:18:10] {main.py:53} INFO - Data retrieved with update_best_server
+[13:18:10] {main.py:37} DEBUG - url: http://speedtest-ndp1.tasmanet.com.au:8080/speedtest/upload.php
+[13:18:10] {main.py:37} DEBUG - lat: -31.9523
+[13:18:10] {main.py:37} DEBUG - lon: 115.8613
+[13:18:10] {main.py:37} DEBUG - name: Perth
+[13:18:10] {main.py:37} DEBUG - country: Australia
+[13:18:10] {main.py:37} DEBUG - cc: AU
+[13:18:10] {main.py:37} DEBUG - sponsor: TasmaNet Pty Ltd
+[13:18:10] {main.py:37} DEBUG - id: 42957
+[13:18:10] {main.py:37} DEBUG - host: speedtest-ndp1.tasmanet.com.au:8080
+[13:18:10] {main.py:37} DEBUG - d: 0.6371154547457647
+[13:18:10] {main.py:37} DEBUG - latency: 5.022
+[13:18:10] {main.py:42} DEBUG - {'url': 'http://speedtest-ndp1.tasmanet.com.au:8080/speedtest/upload.php', 'lat': '-31.9523', 'lon': '115.8613', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'TasmaNet Pty Ltd', 'id': '42957', 'host': 'speedtest-ndp1.tasmanet.com.au:8080', 'd': 0.6371154547457647, 'latency': 5.022}
+[13:18:10] {main.py:50} INFO - Retrieving data with update_download_speed

@@ -1,7 +1,5 @@
-import re
+# from internet_speed_monitor.main import DataBase
 
-thing = "duplicate column name"
-if re.search("duplicate column name", thing):
-    print("yes")
-else:
-    print("n")
+# db = DataBase()
+# result = db.search_for_id_keys("upload", "NULL")
+# db.delete_entries_with_id(result)
