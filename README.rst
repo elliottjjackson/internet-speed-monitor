@@ -13,4 +13,7 @@ GitHub Submission
 1. Open terminal in project parent directory.
 2.  a. $ pre-commit run --all-files
     b. Address any failed tests and rerun step 2.a.
-3. 
+3. $ git add --all
+4. $ git commit -m '<message>'
+5. $ git push <destination>
+    e.g. $ git push origin main
