@@ -1,7 +1,7 @@
 internet-speed-monitor
 ======================
-DEVELOPMENT USE in Windows 10::
-===============================
+DEVELOPMENT USE in Windows 10
+=============================
 Initialising Project
 --------------------
 1. Open terminal in target directory
