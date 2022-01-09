@@ -1,0 +1,8 @@
+
+<<< RUNNING plots.py >>>
+[10:56:03] {main.py:250} INFO - Retrieved timeseries data from database.
+[10:56:03] {main.py:250} INFO - Retrieved timeseries data from database.
+[10:56:03] {main.py:250} INFO - Retrieved timeseries data from database.
+[10:56:03] {main.py:250} INFO - Retrieved timeseries data from database.
+
+<<< SCRIPT plots.py COMPLETE >>>

@@ -15,12 +15,14 @@ if __name__ == "__main__":
     def two_variable_scatter_plot(
         xaxis_list: List[Any], xaxis_label: str, yaxis_list: List[Any], yaxis_label: str
     ) -> None:
+        """Creates scatter plot with anchored x-axis add origin."""
         plt.scatter(xaxis_list, yaxis_list, edgecolors="black")
         plt.ylabel(yaxis_label)
         plt.xlabel(xaxis_label)
         plt.gca().set_ylim(bottom=0)
         plt.xticks(rotation=90)
 
+    # Extract result sets from database.
     date: List[datetime] = [
         datetime.fromisoformat(x["datetime"]) for x in db.sql_to_dict()
     ]
@@ -28,8 +30,8 @@ if __name__ == "__main__":
     upload: List[float] = [float(x["upload"]) for x in db.sql_to_dict()]
     ping: List[float] = [float(x["ping"]) for x in db.sql_to_dict()]
 
+    # Tri-plot set-up.
     plt.figure(figsize=(18, 9))
-
     plt.subplot(131)
     two_variable_scatter_plot(date, "Datetime", download, "Download Speed, Mbps")
     plt.subplot(132)
