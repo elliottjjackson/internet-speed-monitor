@@ -6,7 +6,6 @@ from pathlib import Path
 from sqlite3 import Error
 from typing import Any, Callable, List, MutableMapping, Optional, Union
 
-import matplotlib.pyplot as plt
 import speedtest as st
 
 # Set up log file configuration for global use in the script.
@@ -14,15 +13,17 @@ log_filename = f"{Path(__file__).stem}.log"
 script_filename = Path(__file__).name
 project_directory = str(Path(__file__).parent)
 project_directory = project_directory.replace("\\\\", "\\")
+
 logging.basicConfig(
     filename=log_filename,
     filemode="a",
-    level=logging.DEBUG,
     format=f"[%(asctime)s] {{{script_filename}:%(lineno)d}} "
     f"%(levelname)s - %(message)s",
     datefmt="%H:%M:%S",
 )
 log = logging.getLogger(__name__)
+# setLevel required outside of basicConfig to prevent matplotlib from writing to log.
+log.setLevel(logging.DEBUG)
 
 
 def add_log_header(message: str) -> None:
@@ -71,12 +72,7 @@ Mbps = float
 
 class SpeedTest:
     def __init__(self) -> None:
-        # Retrieve server stats, download and upload on first call.
-        self.speed_test = st.Speedtest()
-        self._server_stats = self.update_best_server()
-        self._download_speed = self.update_download_speed()
-        self._upload_speed = self.update_upload_speed()
-        self._results = self.speed_test.results
+        self._results = None
 
     @property
     def server_stats(self) -> dict[str, Any]:
@@ -91,9 +87,18 @@ class SpeedTest:
         return self._upload_speed
 
     @property
-    def results(self) -> dict[str, Any]:
-        self._results = self.parse_speedtest_results(self._results.__dict__)
+    def results(self) -> Optional[dict[str, Any]]:
+        if self._results:
+            self._results = self.parse_speedtest_results(self._results.__dict__)
         return self._results
+
+    def run(self) -> None:
+        """Retrieve server stats, download and upload on first call."""
+        self.speed_test = st.Speedtest()
+        self._server_stats = self.update_best_server()
+        self._download_speed = self.update_download_speed()
+        self._upload_speed = self.update_upload_speed()
+        self._results = self.speed_test.results
 
     @speedtest_connection_log
     def update_best_server(self) -> dict[str, Any]:
@@ -115,25 +120,28 @@ class SpeedTest:
 
     def parse_speedtest_results(
         self, input_dict: MutableMapping[Any, Any], parent_key: str = "", sep: str = "_"
-    ) -> dict[str, Any]:
+    ) -> Optional[dict[str, Any]]:
         """Parses result set by flattening nested dictionaries.
         Expected result is a dictionary with primitive values only and
         concatenated keys (underscore deliminiter by default)."""
-        output_dict: List[tuple[str, Any]] = []
-        for k, v in input_dict.items():
-            new_key = parent_key + sep + k if parent_key else k
-            if isinstance(v, MutableMapping):
-                output_dict.extend(
-                    self.parse_speedtest_results(v, new_key, sep=sep).items()
-                )
-            else:
-                output_dict.append((new_key, v))
-        self._results = dict(output_dict)
-        try:
-            self._results["download"] = round(self._results["download"] / 1e6, 3)
-            self._results["upload"] = round(self._results["upload"] / 1e6, 3)
-        except KeyError:
-            pass
+        if self._results:
+            output_dict: List[tuple[str, Any]] = []
+            for k, v in input_dict.items():
+                new_key = parent_key + sep + k if parent_key else k
+                if isinstance(v, MutableMapping):
+                    output_dict.extend(
+                        self.parse_speedtest_results(v, new_key, sep=sep).items()
+                    )
+                else:
+                    output_dict.append((new_key, v))
+            self._results = dict(output_dict)
+            try:
+                self._results["download"] = round(self._results["download"] / 1e6, 3)
+                self._results["upload"] = round(self._results["upload"] / 1e6, 3)
+            except KeyError:
+                pass
+        else:
+            log.debug("Result set is empty. No results to parse.")
 
         return self._results
 
@@ -241,7 +249,7 @@ class DataBase:
                         f"Error occurred while getting timeseries data. Error: {e}"
                     )
                     raise e
-        log.info("Getting timeseries data from database.")
+        log.info("Retrieved timeseries data from database.")
         return _sql_dict
 
     def search_for_id_keys(self, header: str, value: str) -> Optional[List[int]]:
@@ -287,13 +295,7 @@ if __name__ == "__main__":
 
     add_log_header(f"RUNNING {script_filename}")
     speed_test = SpeedTest()
+    speed_test.run()
     results = speed_test.results
     db = DataBase(results)
-    date: List[datetime] = [
-        datetime.fromisoformat(x["datetime"]) for x in db.sql_to_dict()
-    ]
-    download: List[float] = [float(x["download"]) for x in db.sql_to_dict()]
-    upload: List[float] = [float(x["upload"]) for x in db.sql_to_dict()]
-    ping: List[float] = [float(x["ping"]) for x in db.sql_to_dict()]
-    plt.plot(date, download)
     add_log_header(f"SCRIPT {script_filename} COMPLETE")
