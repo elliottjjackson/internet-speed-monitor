@@ -1,0 +1,33 @@
+
+<<< RUNNING main.py >>>
+[21:49:34] {main.py:53} INFO - Retrieving data with update_best_server
+[21:49:37] {main.py:56} INFO - Data retrieved with update_best_server
+[21:49:37] {main.py:40} DEBUG - url: http://per-speed.overthewire.com.au:8080/speedtest/upload.php
+[21:49:37] {main.py:40} DEBUG - lat: -31.9554
+[21:49:37] {main.py:40} DEBUG - lon: 115.8585
+[21:49:37] {main.py:40} DEBUG - name: Perth
+[21:49:37] {main.py:40} DEBUG - country: Australia
+[21:49:37] {main.py:40} DEBUG - cc: AU
+[21:49:37] {main.py:40} DEBUG - sponsor: Over The Wire
+[21:49:37] {main.py:40} DEBUG - id: 40054
+[21:49:37] {main.py:40} DEBUG - host: per-speed.overthewire.com.au:8080
+[21:49:37] {main.py:40} DEBUG - d: 1.069870420577675
+[21:49:37] {main.py:40} DEBUG - latency: 33.525
+[21:49:37] {main.py:45} DEBUG - {'url': 'http://per-speed.overthewire.com.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Over The Wire', 'id': '40054', 'host': 'per-speed.overthewire.com.au:8080', 'd': 1.069870420577675, 'latency': 33.525}
+[21:49:37] {main.py:53} INFO - Retrieving data with update_download_speed
+[21:49:47] {main.py:56} INFO - Data retrieved with update_download_speed
+[21:49:47] {main.py:45} DEBUG - 53.45445532240803
+[21:49:47] {main.py:53} INFO - Retrieving data with update_upload_speed
+[21:49:59] {main.py:56} INFO - Data retrieved with update_upload_speed
+[21:49:59] {main.py:45} DEBUG - 19.172431050333078
+[21:49:59] {main.py:231} INFO - Results added to database.
+
+<<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING plots.py >>>
+[11:17:35] {main.py:250} INFO - Retrieved timeseries data from database.
+[11:17:35] {main.py:250} INFO - Retrieved timeseries data from database.
+[11:17:35] {main.py:250} INFO - Retrieved timeseries data from database.
+[11:17:35] {main.py:250} INFO - Retrieved timeseries data from database.
+
+<<< SCRIPT plots.py COMPLETE >>>

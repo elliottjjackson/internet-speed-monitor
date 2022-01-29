@@ -6,3 +6,145 @@
 [10:56:03] {main.py:250} INFO - Retrieved timeseries data from database.
 
 <<< SCRIPT plots.py COMPLETE >>>
+
+<<< RUNNING main.py >>>
+[19:51:38] {main.py:53} INFO - Retrieving data with update_best_server
+[19:51:39] {main.py:56} INFO - Data retrieved with update_best_server
+[19:51:39] {main.py:40} DEBUG - url: http://per1.speedtest.telstra.net:8080/speedtest/upload.php
+[19:51:39] {main.py:40} DEBUG - lat: -31.9554
+[19:51:39] {main.py:40} DEBUG - lon: 115.8585
+[19:51:39] {main.py:40} DEBUG - name: Perth
+[19:51:39] {main.py:40} DEBUG - country: Australia
+[19:51:39] {main.py:40} DEBUG - cc: AU
+[19:51:39] {main.py:40} DEBUG - sponsor: Telstra
+[19:51:39] {main.py:40} DEBUG - id: 12494
+[19:51:39] {main.py:40} DEBUG - host: per1.speedtest.telstra.net:8080
+[19:51:39] {main.py:40} DEBUG - d: 1.069870420577675
+[19:51:39] {main.py:40} DEBUG - latency: 13.421
+[19:51:39] {main.py:45} DEBUG - {'url': 'http://per1.speedtest.telstra.net:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Telstra', 'id': '12494', 'host': 'per1.speedtest.telstra.net:8080', 'd': 1.069870420577675, 'latency': 13.421}
+[19:51:39] {main.py:53} INFO - Retrieving data with update_download_speed
+[19:51:49] {main.py:56} INFO - Data retrieved with update_download_speed
+[19:51:49] {main.py:45} DEBUG - 50.387572152451554
+[19:51:49] {main.py:53} INFO - Retrieving data with update_upload_speed
+[19:52:02] {main.py:56} INFO - Data retrieved with update_upload_speed
+[19:52:02] {main.py:45} DEBUG - 18.59335093188535
+[19:52:02] {main.py:231} INFO - Results added to database.
+
+<<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING main.py >>>
+[07:14:36] {main.py:53} INFO - Retrieving data with update_best_server
+[07:14:37] {main.py:56} INFO - Data retrieved with update_best_server
+[07:14:37] {main.py:40} DEBUG - url: http://per-speedtest-01.nodeone.com.au:8080/speedtest/upload.php
+[07:14:37] {main.py:40} DEBUG - lat: -31.9554
+[07:14:37] {main.py:40} DEBUG - lon: 115.8585
+[07:14:37] {main.py:40} DEBUG - name: Perth
+[07:14:37] {main.py:40} DEBUG - country: Australia
+[07:14:37] {main.py:40} DEBUG - cc: AU
+[07:14:37] {main.py:40} DEBUG - sponsor: NodeOne
+[07:14:37] {main.py:40} DEBUG - id: 31363
+[07:14:37] {main.py:40} DEBUG - host: per-speedtest-01.nodeone.com.au:8080
+[07:14:37] {main.py:40} DEBUG - d: 1.069870420577675
+[07:14:37] {main.py:40} DEBUG - latency: 6.532
+[07:14:37] {main.py:45} DEBUG - {'url': 'http://per-speedtest-01.nodeone.com.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'NodeOne', 'id': '31363', 'host': 'per-speedtest-01.nodeone.com.au:8080', 'd': 1.069870420577675, 'latency': 6.532}
+[07:14:37] {main.py:53} INFO - Retrieving data with update_download_speed
+[07:14:47] {main.py:56} INFO - Data retrieved with update_download_speed
+[07:14:47] {main.py:45} DEBUG - 53.43815799899631
+[07:14:47] {main.py:53} INFO - Retrieving data with update_upload_speed
+[07:15:01] {main.py:56} INFO - Data retrieved with update_upload_speed
+[07:15:01] {main.py:45} DEBUG - 16.088076791134075
+[07:15:01] {main.py:231} INFO - Results added to database.
+
+<<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING main.py >>>
+[07:18:27] {main.py:53} INFO - Retrieving data with update_best_server
+[07:18:28] {main.py:56} INFO - Data retrieved with update_best_server
+[07:18:28] {main.py:40} DEBUG - url: http://per-speedtest-01.nodeone.com.au:8080/speedtest/upload.php
+[07:18:28] {main.py:40} DEBUG - lat: -31.9554
+[07:18:28] {main.py:40} DEBUG - lon: 115.8585
+[07:18:28] {main.py:40} DEBUG - name: Perth
+[07:18:28] {main.py:40} DEBUG - country: Australia
+[07:18:28] {main.py:40} DEBUG - cc: AU
+[07:18:28] {main.py:40} DEBUG - sponsor: NodeOne
+[07:18:28] {main.py:40} DEBUG - id: 31363
+[07:18:28] {main.py:40} DEBUG - host: per-speedtest-01.nodeone.com.au:8080
+[07:18:28] {main.py:40} DEBUG - d: 1.069870420577675
+[07:18:28] {main.py:40} DEBUG - latency: 6.716
+[07:18:28] {main.py:45} DEBUG - {'url': 'http://per-speedtest-01.nodeone.com.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'NodeOne', 'id': '31363', 'host': 'per-speedtest-01.nodeone.com.au:8080', 'd': 1.069870420577675, 'latency': 6.716}
+[07:18:28] {main.py:53} INFO - Retrieving data with update_download_speed
+[07:18:38] {main.py:56} INFO - Data retrieved with update_download_speed
+[07:18:38] {main.py:45} DEBUG - 53.7254863943794
+[07:18:38] {main.py:53} INFO - Retrieving data with update_upload_speed
+[07:18:50] {main.py:56} INFO - Data retrieved with update_upload_speed
+[07:18:50] {main.py:45} DEBUG - 18.99710553174006
+[07:18:50] {main.py:231} INFO - Results added to database.
+
+<<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING plots.py >>>
+[07:25:14] {main.py:250} INFO - Retrieved timeseries data from database.
+[07:25:14] {main.py:250} INFO - Retrieved timeseries data from database.
+[07:25:14] {main.py:250} INFO - Retrieved timeseries data from database.
+[07:25:14] {main.py:250} INFO - Retrieved timeseries data from database.
+
+<<< SCRIPT plots.py COMPLETE >>>
+
+<<< RUNNING plots.py >>>
+[17:19:47] {main.py:250} INFO - Retrieved timeseries data from database.
+[17:19:47] {main.py:250} INFO - Retrieved timeseries data from database.
+[17:19:47] {main.py:250} INFO - Retrieved timeseries data from database.
+[17:19:47] {main.py:250} INFO - Retrieved timeseries data from database.
+
+<<< SCRIPT plots.py COMPLETE >>>
+
+<<< RUNNING plots.py >>>
+[11:54:52] {main.py:250} INFO - Retrieved timeseries data from database.
+[11:54:52] {main.py:250} INFO - Retrieved timeseries data from database.
+[11:54:52] {main.py:250} INFO - Retrieved timeseries data from database.
+[11:54:52] {main.py:250} INFO - Retrieved timeseries data from database.
+
+<<< SCRIPT plots.py COMPLETE >>>
+
+<<< RUNNING plots.py >>>
+[10:54:07] {main.py:250} INFO - Retrieved timeseries data from database.
+[10:54:08] {main.py:250} INFO - Retrieved timeseries data from database.
+[10:54:08] {main.py:250} INFO - Retrieved timeseries data from database.
+[10:54:08] {main.py:250} INFO - Retrieved timeseries data from database.
+
+<<< SCRIPT plots.py COMPLETE >>>
+
+<<< RUNNING plots.py >>>
+
+<<< RUNNING main.py >>>
+[11:08:50] {main.py:53} INFO - Retrieving data with update_best_server
+[11:08:52] {main.py:56} INFO - Data retrieved with update_best_server
+[11:08:52] {main.py:40} DEBUG - url: https://speedtest-per.optusnet.com.au:8080/speedtest/upload.php
+[11:08:52] {main.py:40} DEBUG - lat: -31.9554
+[11:08:52] {main.py:40} DEBUG - lon: 115.8585
+[11:08:52] {main.py:40} DEBUG - name: Perth
+[11:08:52] {main.py:40} DEBUG - country: Australia
+[11:08:52] {main.py:40} DEBUG - cc: AU
+[11:08:52] {main.py:40} DEBUG - sponsor: Optus
+[11:08:52] {main.py:40} DEBUG - id: 30879
+[11:08:52] {main.py:40} DEBUG - host: speedtest-per.optusnet.com.au:8080
+[11:08:52] {main.py:40} DEBUG - d: 1.069870420577675
+[11:08:52] {main.py:40} DEBUG - latency: 26.727
+[11:08:52] {main.py:45} DEBUG - {'url': 'https://speedtest-per.optusnet.com.au:8080/speedtest/upload.php', 'lat': '-31.9554', 'lon': '115.8585', 'name': 'Perth', 'country': 'Australia', 'cc': 'AU', 'sponsor': 'Optus', 'id': '30879', 'host': 'speedtest-per.optusnet.com.au:8080', 'd': 1.069870420577675, 'latency': 26.727}
+[11:08:52] {main.py:53} INFO - Retrieving data with update_download_speed
+[11:09:02] {main.py:56} INFO - Data retrieved with update_download_speed
+[11:09:02] {main.py:45} DEBUG - 50.674158724456255
+[11:09:02] {main.py:53} INFO - Retrieving data with update_upload_speed
+[11:09:14] {main.py:56} INFO - Data retrieved with update_upload_speed
+[11:09:14] {main.py:45} DEBUG - 18.13955707826818
+[11:09:14] {main.py:232} INFO - Results added to database.
+
+<<< SCRIPT main.py COMPLETE >>>
+
+<<< RUNNING plots.py >>>
+[11:09:33] {main.py:251} INFO - Retrieved timeseries data from database.
+[11:09:33] {main.py:251} INFO - Retrieved timeseries data from database.
+[11:09:33] {main.py:251} INFO - Retrieved timeseries data from database.
+[11:09:33] {main.py:251} INFO - Retrieved timeseries data from database.
+
+<<< SCRIPT plots.py COMPLETE >>>
